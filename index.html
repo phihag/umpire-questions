@@ -14,12 +14,12 @@ html, body {
 
 main {
 	margin: 0 10px;
+	position: relative;
 }
 
 h1 {
 	margin-top: 0;
 	font-size: 19px;
-	text-align: center;
 }
 
 .scoresheet {
@@ -28,27 +28,129 @@ h1 {
 }
 
 .q {
-	margin-top: 1.2em;
+	margin-top: 1.5em;
 }
 .a {
 	margin-top: 0.4em;
+	min-height: 4em;
+	background: #fcfffc;
 }
+
+.show_link_container {
+	position: absolute;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	height: 4em;
+	cursor: pointer;
+}
+
+.show_link {
+	border: 1px solid #ddd;
+	background: #fafafa;
+	padding: 10px 40px;
+	user-select: none;
+}
+.show_link:hover {
+	background: #fff0f0;
+}
+
+#toggle_all {
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	background: #fafafa;
+	min-width: 12em;
+	text-align: right;
+	padding: 5px 5px 5px 5px;
+	cursor: pointer;
+	border-top: 1px solid #ddd;
+	border-left: 1px solid #ddd;
+	border-top-left-radius: 5px;
+	user-select: none;
+}
+#toggle_all:hover {
+	background: #fff0f0;
+}
+
 
 @media print {
 	html, body {
 		font-family: serif;
 	}
+
+	.show_link, #toggle_all {
+		display: none;
+	}
 }
 
 </style>
 <script>
+function empty(node) {
+	var last;
+	while ((last = node.lastChild)) {
+		node.removeChild(last);
+	}
+}
+
+function text(node, str) {
+	empty(node);
+	if ((str !== undefined) && (str !== null)) {
+		node.appendChild(node.ownerDocument.createTextNode(str));
+	}
+}
+
+var all_visible = false;
+function toggle_all(e) {
+	e.preventDefault();
+	var i;
+	var answers = document.querySelectorAll('.a');
+	for (i = 0;i < answers.length;i++) {
+		answers[i].style.visibility = all_visible ? 'hidden' : 'visible';
+	}
+	var show_link_containers = document.querySelectorAll('.show_link_container');
+	for (i = 0;i < show_link_containers.length;i++) {
+		show_link_containers[i].style.display = all_visible ? 'flex' : 'none';
+	}
+
+	text(
+		document.querySelector('#toggle_all'),
+		all_visible ? 'Alle Antworten zeigen' : 'Alle Antworten verbergen');
+	all_visible = !all_visible;
+}
+
 document.addEventListener('DOMContentLoaded', function() {
 	var answers = document.querySelectorAll('.a');
 	for (var i = 0;i < answers.length;i++) {
 		var a = answers[i];
 
-		a.style.visibility = 'hidden';
+		(function(a) {
+			var show = function() {
+				a.style.visibility = 'visible';
+				show_link_container.style.display = 'none';
+			};
+
+			a.style.visibility = 'hidden';
+
+			var show_link_container = document.createElement('div');
+			show_link_container.setAttribute('class', 'show_link_container');
+			var show_link = document.createElement('div');
+			show_link.setAttribute('class', 'show_link');
+			show_link.appendChild(document.createTextNode('Antwort zeigen'));
+			show_link_container.appendChild(show_link);
+			a.parentNode.insertBefore(show_link_container, a);
+			show_link_container.addEventListener('click', show);
+			show_link_container.addEventListener('touchstart', show);
+		})(a);
 	}
+
+	var toggle_all_div = document.createElement('div');
+	toggle_all_div.setAttribute('id', 'toggle_all');
+	text(toggle_all_div, 'Alle Antworten zeigen');
+	toggle_all_div.addEventListener('click', toggle_all);
+	document.querySelector('body').appendChild(toggle_all_div);
+
 });
 </script>
 
@@ -199,16 +301,16 @@ Ein Federball muss 16 Federn mit einer Länge zwischen 62mm und 70mm haben und z
 <img src="sheet8.svg" class="scoresheet" /></div>
 
 <div class="q" id="q25">Im nächsten Ballwechsel fliegt ein Ball vom Nachbarfeld auf die Doppelaufschlaglinie.  Sekundenbruchteile danach schwingt Dana nach dem Töten des Balls über dem Netz aus. Der Ball landet erst nach dem Übergreifen auf dem Boden innerhalb des Feldes. Was sagst du an? Was steht auf deinem Zettel?</div>
-<div class="a">Ein Ball vom Nachbarfeld führt nicht zwingend zur Wiederholung (siehe §3.5.2 Anweisungen für technische Offizielle). In diesem Fall hat der Ball niemanden irritiert. Regel §13.4.2 erlaubt das Eindringen des Schlägers nach dem Schlag.<br/>
+<div class="a">Ein Ball vom Nachbarfeld führt nicht zwingend zur Wiederholung (siehe §3.5.2 Anweisungen für Technische Offizielle). In diesem Fall hat der Ball niemanden irritiert. Regel §13.4.2 erlaubt das Eindringen des Schlägers nach dem Schlag.<br/>
 <em>Aufschlagwechsel. 5 beide.</em><br/>
 <img src="sheet9.svg" class="scoresheet" /></div>
 
 <div class="q" id="q26">Im nächsten Ballwechsel landet ein Smash von Beate nahe der Grundlinie. Du kannst nicht genau erkennen wo der Ball gelandet ist, und ein unabhängiger Zuschauer stimmt zu. Chris und Dana meinen das er aus war, die anderen Spieler sind sich nicht sicher. Was sagst Du an? Was steht auf deinem Zettel?</div>
-<div class="a">Zuschauer oder Spieler beeinflussen das Ergebnis der Schiedsrichterentscheidung nicht, mit der Ausnahme wenn Spieler gegen sich entscheiden. Siehe auch §4.5 Anweisungen für technische Offizielle.<br/>
+<div class="a">Zuschauer oder Spieler beeinflussen das Ergebnis der Schiedsrichterentscheidung nicht, mit der Ausnahme wenn Spieler gegen sich entscheiden. Siehe auch §4.5 Anweisungen für Technische Offizielle.<br/>
 <em>Wiederholung. 5 beide.</em> (Der Schiedsrichterzettel bleibt unverändert).</div>
 
 <div class="q" id="q27">Der nächste Aufschlag geht direkt ins Netz. Was sagst Du an? Was steht auf deinem Zettel?</div>
-<div class="a">"Fehler" muss nach §3.3.4.3 Anweisungen für technische Offizielle in dieser Situation nicht unbedingt gesagt werden.<br/>
+<div class="a">"Fehler" muss nach §3.3.4.3 Anweisungen für Technische Offizielle in dieser Situation nicht unbedingt gesagt werden.<br/>
 <em>Aufschlagwechsel. Sechs Fünf.</em><br/>
 <img src="sheet10.svg" class="scoresheet" /></div>
 
@@ -241,7 +343,7 @@ Im Schiedsrichterzettel wird der Ball eingetragen:<br/>
 
 <div class="q" id="q33">Chris lässt sich wieder viel Zeit und spricht noch mit seinem Coach. Sein Clear geht dann auch prompt ins Seitenaus. Arne möchte den Ball trotzdem noch schlagen, lässt ihn aber fallen, nachdem sein Coach "Aus" sagt.<br/>Wie entscheidest du? Was sagst du an? Was steht auf deinem Zettel?</div>
 <div class="a">Zu Chris: <em>Bitte spielen.</em>. Ggf. kann der Spieler auch herangeholt werden.<br/>
-Wenn ein Coach redet, während der Ball im Spiel ist, wird Wiederholung gegeben (vergleiche Anweisungen für technische Offizielle 3.5.6.3).
+Wenn ein Coach redet, während der Ball im Spiel ist, wird Wiederholung gegeben (vergleiche Anweisungen für Technische Offizielle 3.5.6.3).
 <em>Wiederholung. Sieben Acht.</em> Dann mit dem Spieler sprechen, das der Coach nicht ins Spiel reinrufen darf.  (Offizielle Ansage: <em>Coachen ist während des Ballwechsels nicht erlaubt.</em>). Ggf. kann hier auch der Referee gerufen werden.<br/>
 Der Schiedsrichterzettel bleibt unverändert.</div>
 
