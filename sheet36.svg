@@ -1,0 +1,597 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   height="39.535995"
+   width="180.856"
+   viewBox="0 0 180.856 39.535995"
+   version="1.1"
+   id="svg100"
+   sodipodi:docname="sheet36.svg"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)">
+  <metadata
+     id="metadata104">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1920"
+     inkscape:window-height="1031"
+     id="namedview102"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     showguides="false"
+     inkscape:zoom="6.0646933"
+     inkscape:cx="78.6122"
+     inkscape:cy="22.729517"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg100" />
+  <defs
+     id="defs682">
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect917"
+       is_visible="true" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect913"
+       is_visible="true" />
+  </defs>
+  <style
+     id="style2">
+	text {
+		font-family: Helvetica;
+		font-size: 4px;
+	}
+	text.small-text, text.table_name {font-size: 3px;}
+	.divider-line {stroke: #000; stroke-width: 0.2;}
+	.box {stroke: #000; stroke-width: 0.5; fill: none;}
+	.shade,.box.shaded,.table_longtext_background.shaded {fill: #e0e0e0;}
+	.scoresheet_results_circle_team1,.scoresheet_results_circle_team2 {
+		stroke: #000; stroke-width: 0.6; fill: none;
+	}
+	.dashed-line {
+		stroke: #000; stroke-width: 0.4; stroke-dasharray: 0.4, 0.4;
+	}
+	.table {
+		stroke: #000; stroke-width: 0.35; fill: none;
+	}
+	.table_line {
+		stroke: #000; stroke-width: 0.1;
+	}
+	.table_20all_dash {
+		stroke: #000; stroke-width: 0.4;
+	}
+	.editmode-sign {
+		stroke: #202020; stroke-width: 0.3; fill: none;
+	}
+	.table_thick-line {
+		stroke: #000; stroke-width: 0.35;
+	}
+	.table_game_result {
+		stroke: #000; stroke-width: 0.4; fill: none;
+	}
+	.table_longtext_background {
+		fill: #fff;
+		opacity: 0.75;
+	}
+</style>
+  <g
+     style="visibility:visible"
+     transform="translate(-105.144,-13.164001)"
+     id="g118"
+     visibility="visible"
+     class="scoresheet_shuttle_counter">
+    <text
+       style="font-size:3px;font-family:Helvetica;text-anchor:end"
+       id="text114"
+       data-i18n="scoresheet:Shuttles"
+       y="50"
+       x="202"
+       class="small-text">Federbälle:</text>
+    <text
+       style="font-size:4px;font-family:Helvetica"
+       id="text116"
+       y="50"
+       x="205"
+       class="scoresheet_shuttle_counter_value">|||| ||</text>
+  </g>
+  <!-- top left -->
+  <text
+     style="font-size:4px;font-family:Helvetica"
+     id="text4"
+     y="1.836"
+     x="-0.14399999"
+     class="scoresheet_tournament_name" />
+  <text
+     style="font-weight:bold;font-size:4px;font-family:Helvetica"
+     id="text6"
+     x="-11.144"
+     y="1.836"
+     font-weight="bold"
+     class="scoresheet_event_name" />
+  <text
+     style="font-size:3px;font-family:Helvetica"
+     id="text8"
+     data-i18n="scoresheet:Match"
+     y="20.336"
+     x="-0.14399999"
+     class="scoresheet_match_label small-text">Spiel:</text>
+  <text
+     style="font-size:4px;font-family:Helvetica"
+     id="text10"
+     y="20.836"
+     x="13.856001"
+     class="scoresheet_match_name" />
+  <text
+     style="font-size:3px;font-family:Helvetica"
+     id="text12"
+     data-i18n="scoresheet:Date"
+     y="27.336"
+     x="-0.14399999"
+     class="scoresheet_date_label small-text">Datum:</text>
+  <text
+     style="font-size:4px;font-family:Helvetica"
+     id="text14"
+     y="27.836"
+     x="13.856001"
+     class="scoresheet_date_value">Sa 13.04.2019</text>
+  <!-- left name box -->
+  <rect
+     style="fill:none;stroke:#000000;stroke-width:0.5"
+     id="rect16"
+     height="7"
+     width="5"
+     y="8.8360004"
+     x="36.856003"
+     class="box" />
+  <rect
+     style="fill:none;stroke:#000000;stroke-width:0.34141481"
+     id="rect18"
+     height="21.158585"
+     width="27.30294"
+     y="8.7567081"
+     x="41.776711"
+     class="box" />
+  <line
+     style="stroke:#000000;stroke-width:0.13569379"
+     id="line22"
+     y2="22.836"
+     y1="22.836"
+     x2="69.014877"
+     x1="41.856003"
+     class="divider-line" />
+  <text
+     style="font-size:4px;font-family:Helvetica;text-anchor:middle"
+     id="text24"
+     y="13.836"
+     x="39.356003"
+     class="scoresheet_results_team1_side">L</text>
+  <text
+     style="font-size:4px;font-family:Helvetica"
+     id="text26"
+     y="13.836"
+     x="42.856003"
+     class="scoresheet_results_team1_player1">Arne Aalders</text>
+  <text
+     style="font-size:4px;font-family:Helvetica"
+     id="text28"
+     y="20.836"
+     x="42.856003"
+     class="scoresheet_results_team1_player2">Beate Blom</text>
+  <text
+     style="font-size:3px;font-family:Helvetica"
+     id="text30"
+     y="27.336"
+     x="62.855999"
+     class="scoresheet_results_team1_name small-text" />
+  <!-- score box -->
+  <text
+     style="font-size:3px;font-family:Helvetica;text-anchor:middle"
+     id="text34"
+     data-i18n="scoresheet:points"
+     y="7.836"
+     x="81.057747"
+     class="small-text">Satzergebnis</text>
+  <rect
+     style="fill:none;stroke:#000000;stroke-width:0.5"
+     id="rect36"
+     height="21"
+     y="8.8360004"
+     width="21"
+     x="70.557747"
+     class="box" />
+  <line
+     style="stroke:#000000;stroke-width:0.2"
+     id="line38"
+     y2="15.836"
+     y1="15.836"
+     x2="91.557747"
+     x1="70.557747"
+     class="divider-line" />
+  <line
+     style="stroke:#000000;stroke-width:0.2"
+     id="line40"
+     y2="22.836"
+     y1="22.836"
+     x2="91.557747"
+     x1="70.557747"
+     class="divider-line" />
+  <text
+     style="font-size:4px;font-family:Helvetica;text-anchor:middle"
+     id="text42"
+     y="13.836"
+     x="81.057747">:</text>
+  <text
+     style="font-size:4px;font-family:Helvetica;text-anchor:middle"
+     id="text44"
+     y="20.836"
+     x="81.057747">:</text>
+  <text
+     style="font-size:4px;font-family:Helvetica;text-anchor:middle"
+     id="text46"
+     y="27.836"
+     x="81.057747">:</text>
+  <text
+     style="font-size:4px;font-family:Helvetica;text-anchor:middle"
+     id="text48"
+     y="13.836"
+     x="127.856"
+     class="scoresheet_results_team1_score1" />
+  <text
+     style="font-size:4px;font-family:Helvetica;text-anchor:middle"
+     id="text50"
+     y="20.836"
+     x="127.856"
+     class="scoresheet_results_team1_score2" />
+  <text
+     style="font-size:4px;font-family:Helvetica;text-anchor:middle"
+     id="text52"
+     y="27.836"
+     x="127.856"
+     class="scoresheet_results_team1_score3" />
+  <text
+     style="font-size:4px;font-family:Helvetica;text-anchor:middle"
+     id="text54"
+     y="13.836"
+     x="138.856"
+     class="scoresheet_results_team2_score1" />
+  <text
+     style="font-size:4px;font-family:Helvetica;text-anchor:middle"
+     id="text56"
+     y="20.836"
+     x="138.856"
+     class="scoresheet_results_team2_score2" />
+  <text
+     style="font-size:4px;font-family:Helvetica;text-anchor:middle"
+     id="text58"
+     y="27.836"
+     x="138.856"
+     class="scoresheet_results_team2_score3" />
+  <!-- right name box -->
+  <rect
+     style="fill:#e0e0e0;stroke:#000000;stroke-width:0.5"
+     id="rect60"
+     height="7"
+     width="5"
+     y="8.8360004"
+     x="120.856"
+     class="box shaded" />
+  <rect
+     style="fill:#e0e0e0;stroke:#000000;stroke-width:0.34095725"
+     id="rect62"
+     height="21.159042"
+     width="27.229218"
+     y="8.7564793"
+     x="93.706299"
+     class="box shaded" />
+  <line
+     style="stroke:#000000;stroke-width:0.13577893"
+     id="line64"
+     y2="15.836"
+     y1="15.836"
+     x2="120.856"
+     x1="93.663017"
+     class="divider-line" />
+  <line
+     style="stroke:#000000;stroke-width:0.13516435"
+     id="line66"
+     y2="22.836"
+     y1="22.836"
+     x2="120.856"
+     x1="93.908638"
+     class="divider-line" />
+  <text
+     style="font-size:4px;font-family:Helvetica;text-anchor:middle"
+     id="text68"
+     y="13.836"
+     x="123.356"
+     class="scoresheet_results_team2_side">R</text>
+  <text
+     style="font-size:4px;font-family:Helvetica"
+     id="text70"
+     y="13.836"
+     x="94.855995"
+     class="scoresheet_results_team2_player1">Chris Corsen</text>
+  <text
+     style="font-size:4px;font-family:Helvetica"
+     id="text72"
+     y="20.836"
+     x="94.855995"
+     class="scoresheet_results_team2_player2">Dana Dumler</text>
+  <text
+     style="font-size:3px;font-family:Helvetica"
+     id="text74"
+     y="27.336"
+     x="146.856"
+     class="scoresheet_results_team2_name small-text" />
+  <!-- top right information about match -->
+  <text
+     style="font-size:3px;font-family:Helvetica"
+     id="text78"
+     data-i18n="scoresheet:Court"
+     y="3.836"
+     x="126.856"
+     class="small-text">Feld:</text>
+  <line
+     style="stroke:#000000;stroke-width:0.40000001;stroke-dasharray:0.4, 0.4"
+     id="line80"
+     y2="4.336"
+     y1="4.336"
+     x2="180.856"
+     x1="150.856"
+     class="dashed-line" />
+  <text
+     style="font-size:4px;font-family:Helvetica"
+     id="text82"
+     y="2.836"
+     x="151.856"
+     class="scoresheet_court_id">1</text>
+  <text
+     style="font-size:3px;font-family:Helvetica"
+     id="text84"
+     data-i18n="scoresheet:Umpire"
+     y="10.836"
+     x="126.856"
+     class="small-text">Schiedsrichter:</text>
+  <line
+     style="stroke:#000000;stroke-width:0.40000001;stroke-dasharray:0.4, 0.4"
+     id="line86"
+     y2="11.336"
+     y1="11.336"
+     x2="180.856"
+     x1="150.856"
+     class="dashed-line" />
+  <text
+     style="font-size:3px;font-family:Helvetica"
+     id="text88"
+     y="9.8360004"
+     x="237.856"
+     class="small-text scoresheet_umpire_name" />
+  <text
+     style="font-size:3px;font-family:Helvetica"
+     id="text90"
+     data-i18n="scoresheet:Service judge"
+     y="17.836"
+     x="126.856"
+     class="small-text">Aufschlagrichter:</text>
+  <line
+     style="stroke:#000000;stroke-width:0.40000001;stroke-dasharray:0.4, 0.4"
+     id="line92"
+     y2="18.336"
+     y1="18.336"
+     x2="180.856"
+     x1="150.856"
+     class="dashed-line" />
+  <text
+     style="font-size:3px;font-family:Helvetica"
+     id="text94"
+     y="16.836"
+     x="237.856"
+     class="small-text scoresheet_service_judge_name" />
+  <text
+     style="font-size:3px;font-family:Helvetica"
+     id="text96"
+     data-i18n="scoresheet:Begin"
+     y="24.836"
+     x="126.856"
+     class="small-text">Beginn:</text>
+  <line
+     style="stroke:#000000;stroke-width:0.40000001;stroke-dasharray:0.4, 0.4"
+     id="line98"
+     y2="25.336"
+     y1="25.336"
+     x2="180.856"
+     x1="150.856"
+     class="dashed-line" />
+  <text
+     style="font-size:4px;font-family:Helvetica"
+     id="text100"
+     y="23.836"
+     x="151.856"
+     class="scoresheet_begin_value">9:46</text>
+  <text
+     style="font-size:3px;font-family:Helvetica"
+     id="text102"
+     data-i18n="scoresheet:End"
+     y="31.836"
+     x="126.856"
+     class="small-text">Ende:</text>
+  <line
+     style="stroke:#000000;stroke-width:0.40000001;stroke-dasharray:0.4, 0.4"
+     id="line104"
+     y2="32.335995"
+     y1="32.335995"
+     x2="180.856"
+     x1="150.856"
+     class="dashed-line" />
+  <text
+     style="font-size:4px;font-family:Helvetica"
+     id="text106"
+     y="30.836"
+     x="237.856"
+     class="scoresheet_end_value" />
+  <text
+     style="font-size:3px;font-family:Helvetica"
+     id="text108"
+     data-i18n="scoresheet:Duration"
+     y="38.835995"
+     x="126.856"
+     class="small-text">Dauer:</text>
+  <line
+     style="stroke:#000000;stroke-width:0.40000001;stroke-dasharray:0.4, 0.4"
+     id="line110"
+     y2="39.335995"
+     y1="39.335995"
+     x2="180.856"
+     x1="150.856"
+     class="dashed-line" />
+  <text
+     style="font-size:4px;font-family:Helvetica"
+     id="text112"
+     y="37.835995"
+     x="237.856"
+     class="scoresheet_duration_value" />
+  <text
+     style="font-size:4px;font-family:Helvetica"
+     id="text100-3"
+     y="9.4852905"
+     x="151.01549"
+     class="scoresheet_begin_value">Dein Name</text>
+  <text
+     style="font-size:4px;font-family:Helvetica"
+     id="text100-3-6"
+     y="17.245777"
+     x="155.01549"
+     class="scoresheet_begin_value">-</text>
+  <text
+     style="font-size:4px;font-family:Helvetica"
+     id="text14-7"
+     y="20.554548"
+     x="13.856001"
+     class="scoresheet_date_value">MX R64</text>
+  <line
+     style="stroke:#000000;stroke-width:0.23939495"
+     id="line38-3"
+     y2="15.836"
+     y1="15.836"
+     x2="68.943718"
+     x1="38.856003"
+     class="divider-line" />
+  <path
+     style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.4;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+     d="m 100.12872,37.18633 3.75122,-2.761887"
+     id="path915"
+     inkscape:connector-curvature="0"
+     inkscape:path-effect="#path-effect917"
+     inkscape:original-d="m 100.12872,37.18633 3.75122,-2.761887" />
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.75871134px;line-height:11.51742268px;font-family:Arial;-inkscape-font-specification:Arial;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.46069688px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     x="112.02691"
+     y="37.566715"
+     id="text921"><tspan
+       sodipodi:role="line"
+       id="tspan919"
+       x="112.02691"
+       y="37.566715"
+       style="stroke-width:0.46069688px">7</tspan></text>
+  <ellipse
+     style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:0.80199998;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0.4;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+     id="path942"
+     cx="113.56716"
+     cy="35.393166"
+     rx="2.8855541"
+     ry="3.7306092" />
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.62750483px;line-height:7.25500965px;font-family:Arial;-inkscape-font-specification:Arial;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.29020038px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     x="157.52345"
+     y="16.747124"
+     id="text946"><tspan
+       sodipodi:role="line"
+       id="tspan944"
+       x="157.52345"
+       y="16.747124"
+       style="stroke-width:0.29020038px">Adam Richter</tspan></text>
+  <text
+     style="font-size:4px;font-family:Helvetica"
+     id="text100-36"
+     y="30.536001"
+     x="151.77177"
+     class="scoresheet_begin_value">10:53</text>
+  <text
+     style="font-size:4px;font-family:Helvetica"
+     id="text100-36-5"
+     y="37.87645"
+     x="151.77177"
+     class="scoresheet_begin_value">1:07</text>
+  <text
+     style="font-size:4px;font-family:Helvetica"
+     id="text26-3"
+     y="13.592455"
+     x="73.226624"
+     class="scoresheet_results_team1_player1">30</text>
+  <text
+     style="font-size:4px;font-family:Helvetica"
+     id="text26-3-5"
+     y="13.592455"
+     x="84.648788"
+     class="scoresheet_results_team1_player1">29</text>
+  <text
+     style="font-size:4px;font-family:Helvetica"
+     id="text26-3-6"
+     y="21.013672"
+     x="73.430847"
+     class="scoresheet_results_team1_player1">20</text>
+  <text
+     style="font-size:4px;font-family:Helvetica"
+     id="text26-3-6-2"
+     y="21.013672"
+     x="84.808174"
+     class="scoresheet_results_team1_player1">22</text>
+  <text
+     style="font-size:4px;font-family:Helvetica"
+     id="text26-3-6-9"
+     y="28.103891"
+     x="73.468071"
+     class="scoresheet_results_team1_player1">15</text>
+  <text
+     style="font-size:4px;font-family:Helvetica"
+     id="text26-3-6-2-2"
+     y="28.105337"
+     x="84.808174"
+     class="scoresheet_results_team1_player1">21</text>
+  <ellipse
+     style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:0.80199998;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0.8;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+     id="path1089"
+     cx="106.60061"
+     cy="15.792008"
+     rx="12.94377"
+     ry="9.8933277" />
+</svg>

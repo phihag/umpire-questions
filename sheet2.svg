@@ -1,0 +1,777 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   height="66.981339"
+   width="184.46211"
+   viewBox="0 0 184.46211 66.981338"
+   version="1.1"
+   id="svg100"
+   sodipodi:docname="sheet2.svg"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)">
+  <metadata
+     id="metadata104">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1920"
+     inkscape:window-height="1031"
+     id="namedview102"
+     showgrid="false"
+     inkscape:zoom="6.6515991"
+     inkscape:cx="92.231056"
+     inkscape:cy="33.490675"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg100"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-top="0"
+     fit-margin-bottom="0" />
+  <defs
+     id="defs682" />
+  <style
+     id="style2">
+	text {
+		font-family: Helvetica;
+		font-size: 4px;
+	}
+	text.small-text, text.table_name {font-size: 3px;}
+	.divider-line {stroke: #000; stroke-width: 0.2;}
+	.box {stroke: #000; stroke-width: 0.5; fill: none;}
+	.shade,.box.shaded,.table_longtext_background.shaded {fill: #e0e0e0;}
+	.scoresheet_results_circle_team1,.scoresheet_results_circle_team2 {
+		stroke: #000; stroke-width: 0.6; fill: none;
+	}
+	.dashed-line {
+		stroke: #000; stroke-width: 0.4; stroke-dasharray: 0.4, 0.4;
+	}
+	.table {
+		stroke: #000; stroke-width: 0.35; fill: none;
+	}
+	.table_line {
+		stroke: #000; stroke-width: 0.1;
+	}
+	.table_20all_dash {
+		stroke: #000; stroke-width: 0.4;
+	}
+	.editmode-sign {
+		stroke: #202020; stroke-width: 0.3; fill: none;
+	}
+	.table_thick-line {
+		stroke: #000; stroke-width: 0.35;
+	}
+	.table_game_result {
+		stroke: #000; stroke-width: 0.4; fill: none;
+	}
+	.table_longtext_background {
+		fill: #fff;
+		opacity: 0.75;
+	}
+</style>
+  <g
+     style="visibility:visible"
+     transform="translate(-104.85466,-13.164)"
+     id="g118"
+     visibility="visible"
+     class="scoresheet_shuttle_counter">
+    <text
+       style="font-size:3px;font-family:Helvetica;text-anchor:end"
+       id="text114"
+       data-i18n="scoresheet:Shuttles"
+       y="50"
+       x="202"
+       class="small-text">Federbälle:</text>
+    <text
+       style="font-size:4px;font-family:Helvetica"
+       id="text116"
+       y="50"
+       x="205"
+       class="scoresheet_shuttle_counter_value">|</text>
+  </g>
+  <!-- top left -->
+  <text
+     style="font-size:4px;font-family:Helvetica"
+     id="text4"
+     y="1.836"
+     x="0.14534281"
+     class="scoresheet_tournament_name" />
+  <text
+     style="font-weight:bold;font-size:4px;font-family:Helvetica"
+     id="text6"
+     x="-10.854657"
+     y="1.836"
+     font-weight="bold"
+     class="scoresheet_event_name" />
+  <text
+     style="font-size:3px;font-family:Helvetica"
+     id="text8"
+     data-i18n="scoresheet:Match"
+     y="20.336"
+     x="0.14534281"
+     class="scoresheet_match_label small-text">Spiel:</text>
+  <text
+     style="font-size:4px;font-family:Helvetica"
+     id="text10"
+     y="20.836"
+     x="14.145344"
+     class="scoresheet_match_name" />
+  <text
+     style="font-size:3px;font-family:Helvetica"
+     id="text12"
+     data-i18n="scoresheet:Date"
+     y="27.336002"
+     x="0.14534281"
+     class="scoresheet_date_label small-text">Datum:</text>
+  <text
+     style="font-size:4px;font-family:Helvetica"
+     id="text14"
+     y="27.836002"
+     x="14.145344"
+     class="scoresheet_date_value">Sa 13.04.2019</text>
+  <!-- left name box -->
+  <rect
+     style="fill:none;stroke:#000000;stroke-width:0.5"
+     id="rect16"
+     height="7"
+     width="5"
+     y="8.8360004"
+     x="37.145344"
+     class="box" />
+  <rect
+     style="fill:none;stroke:#000000;stroke-width:0.34141481"
+     id="rect18"
+     height="21.158585"
+     width="27.30294"
+     y="8.7567081"
+     x="42.066051"
+     class="box" />
+  <line
+     style="stroke:#000000;stroke-width:0.13569379"
+     id="line22"
+     y2="22.836002"
+     y1="22.836002"
+     x2="69.304222"
+     x1="42.145344"
+     class="divider-line" />
+  <text
+     style="font-size:4px;font-family:Helvetica;text-anchor:middle"
+     id="text24"
+     y="13.836"
+     x="39.645344"
+     class="scoresheet_results_team1_side">L</text>
+  <text
+     style="font-size:4px;font-family:Helvetica"
+     id="text26"
+     y="13.836"
+     x="43.145344"
+     class="scoresheet_results_team1_player1">Arne Aalders</text>
+  <text
+     style="font-size:4px;font-family:Helvetica"
+     id="text28"
+     y="20.836"
+     x="43.145344"
+     class="scoresheet_results_team1_player2">Beate Blom</text>
+  <text
+     style="font-size:3px;font-family:Helvetica"
+     id="text30"
+     y="27.336002"
+     x="63.14534"
+     class="scoresheet_results_team1_name small-text" />
+  <!-- score box -->
+  <text
+     style="font-size:3px;font-family:Helvetica;text-anchor:middle"
+     id="text34"
+     data-i18n="scoresheet:points"
+     y="7.836"
+     x="81.347092"
+     class="small-text">Satzergebnis</text>
+  <rect
+     style="fill:none;stroke:#000000;stroke-width:0.5"
+     id="rect36"
+     height="21"
+     y="8.8360004"
+     width="21"
+     x="70.847092"
+     class="box" />
+  <line
+     style="stroke:#000000;stroke-width:0.2"
+     id="line38"
+     y2="15.836"
+     y1="15.836"
+     x2="91.847092"
+     x1="70.847092"
+     class="divider-line" />
+  <line
+     style="stroke:#000000;stroke-width:0.2"
+     id="line40"
+     y2="22.836002"
+     y1="22.836002"
+     x2="91.847092"
+     x1="70.847092"
+     class="divider-line" />
+  <text
+     style="font-size:4px;font-family:Helvetica;text-anchor:middle"
+     id="text42"
+     y="13.836"
+     x="81.347092">:</text>
+  <text
+     style="font-size:4px;font-family:Helvetica;text-anchor:middle"
+     id="text44"
+     y="20.836"
+     x="81.347092">:</text>
+  <text
+     style="font-size:4px;font-family:Helvetica;text-anchor:middle"
+     id="text46"
+     y="27.836002"
+     x="81.347092">:</text>
+  <text
+     style="font-size:4px;font-family:Helvetica;text-anchor:middle"
+     id="text48"
+     y="13.836"
+     x="128.14534"
+     class="scoresheet_results_team1_score1" />
+  <text
+     style="font-size:4px;font-family:Helvetica;text-anchor:middle"
+     id="text50"
+     y="20.836"
+     x="128.14534"
+     class="scoresheet_results_team1_score2" />
+  <text
+     style="font-size:4px;font-family:Helvetica;text-anchor:middle"
+     id="text52"
+     y="27.836002"
+     x="128.14534"
+     class="scoresheet_results_team1_score3" />
+  <text
+     style="font-size:4px;font-family:Helvetica;text-anchor:middle"
+     id="text54"
+     y="13.836"
+     x="139.14534"
+     class="scoresheet_results_team2_score1" />
+  <text
+     style="font-size:4px;font-family:Helvetica;text-anchor:middle"
+     id="text56"
+     y="20.836"
+     x="139.14534"
+     class="scoresheet_results_team2_score2" />
+  <text
+     style="font-size:4px;font-family:Helvetica;text-anchor:middle"
+     id="text58"
+     y="27.836002"
+     x="139.14534"
+     class="scoresheet_results_team2_score3" />
+  <!-- right name box -->
+  <rect
+     style="fill:#e0e0e0;stroke:#000000;stroke-width:0.5"
+     id="rect60"
+     height="7"
+     width="5"
+     y="8.8360004"
+     x="121.14534"
+     class="box shaded" />
+  <rect
+     style="fill:#e0e0e0;stroke:#000000;stroke-width:0.34095725"
+     id="rect62"
+     height="21.159042"
+     width="27.229218"
+     y="8.7564793"
+     x="93.995644"
+     class="box shaded" />
+  <line
+     style="stroke:#000000;stroke-width:0.13577893"
+     id="line64"
+     y2="15.836"
+     y1="15.836"
+     x2="121.14534"
+     x1="93.952362"
+     class="divider-line" />
+  <line
+     style="stroke:#000000;stroke-width:0.13516435"
+     id="line66"
+     y2="22.836002"
+     y1="22.836002"
+     x2="121.14534"
+     x1="94.197983"
+     class="divider-line" />
+  <text
+     style="font-size:4px;font-family:Helvetica;text-anchor:middle"
+     id="text68"
+     y="13.836"
+     x="123.64534"
+     class="scoresheet_results_team2_side">R</text>
+  <text
+     style="font-size:4px;font-family:Helvetica"
+     id="text70"
+     y="13.836"
+     x="95.14534"
+     class="scoresheet_results_team2_player1">Chris Corsen</text>
+  <text
+     style="font-size:4px;font-family:Helvetica"
+     id="text72"
+     y="20.836"
+     x="95.14534"
+     class="scoresheet_results_team2_player2">Dana Dumler</text>
+  <text
+     style="font-size:3px;font-family:Helvetica"
+     id="text74"
+     y="27.336002"
+     x="147.14534"
+     class="scoresheet_results_team2_name small-text" />
+  <!-- top right information about match -->
+  <text
+     style="font-size:3px;font-family:Helvetica"
+     id="text78"
+     data-i18n="scoresheet:Court"
+     y="3.836"
+     x="127.14534"
+     class="small-text">Feld:</text>
+  <line
+     style="stroke:#000000;stroke-width:0.40000001;stroke-dasharray:0.4, 0.4"
+     id="line80"
+     y2="4.336"
+     y1="4.336"
+     x2="181.14534"
+     x1="151.14534"
+     class="dashed-line" />
+  <text
+     style="font-size:4px;font-family:Helvetica"
+     id="text82"
+     y="2.836"
+     x="152.14534"
+     class="scoresheet_court_id">1</text>
+  <text
+     style="font-size:3px;font-family:Helvetica"
+     id="text84"
+     data-i18n="scoresheet:Umpire"
+     y="10.836"
+     x="127.14534"
+     class="small-text">Schiedsrichter:</text>
+  <line
+     style="stroke:#000000;stroke-width:0.40000001;stroke-dasharray:0.4, 0.4"
+     id="line86"
+     y2="11.336"
+     y1="11.336"
+     x2="181.14534"
+     x1="151.14534"
+     class="dashed-line" />
+  <text
+     style="font-size:3px;font-family:Helvetica"
+     id="text88"
+     y="9.8360004"
+     x="238.14534"
+     class="small-text scoresheet_umpire_name" />
+  <text
+     style="font-size:3px;font-family:Helvetica"
+     id="text90"
+     data-i18n="scoresheet:Service judge"
+     y="17.836"
+     x="127.14534"
+     class="small-text">Aufschlagrichter:</text>
+  <line
+     style="stroke:#000000;stroke-width:0.40000001;stroke-dasharray:0.4, 0.4"
+     id="line92"
+     y2="18.336"
+     y1="18.336"
+     x2="181.14534"
+     x1="151.14534"
+     class="dashed-line" />
+  <text
+     style="font-size:3px;font-family:Helvetica"
+     id="text94"
+     y="16.836"
+     x="238.14534"
+     class="small-text scoresheet_service_judge_name" />
+  <text
+     style="font-size:3px;font-family:Helvetica"
+     id="text96"
+     data-i18n="scoresheet:Begin"
+     y="24.836002"
+     x="127.14534"
+     class="small-text">Beginn:</text>
+  <line
+     style="stroke:#000000;stroke-width:0.40000001;stroke-dasharray:0.4, 0.4"
+     id="line98"
+     y2="25.336002"
+     y1="25.336002"
+     x2="181.14534"
+     x1="151.14534"
+     class="dashed-line" />
+  <text
+     style="font-size:4px;font-family:Helvetica"
+     id="text100"
+     y="23.836002"
+     x="152.14534"
+     class="scoresheet_begin_value">9:46</text>
+  <text
+     style="font-size:3px;font-family:Helvetica"
+     id="text102"
+     data-i18n="scoresheet:End"
+     y="31.836002"
+     x="127.14534"
+     class="small-text">Ende:</text>
+  <line
+     style="stroke:#000000;stroke-width:0.40000001;stroke-dasharray:0.4, 0.4"
+     id="line104"
+     y2="32.335999"
+     y1="32.335999"
+     x2="181.14534"
+     x1="151.14534"
+     class="dashed-line" />
+  <text
+     style="font-size:4px;font-family:Helvetica"
+     id="text106"
+     y="30.836002"
+     x="238.14534"
+     class="scoresheet_end_value" />
+  <text
+     style="font-size:3px;font-family:Helvetica"
+     id="text108"
+     data-i18n="scoresheet:Duration"
+     y="38.835999"
+     x="127.14534"
+     class="small-text">Dauer:</text>
+  <line
+     style="stroke:#000000;stroke-width:0.40000001;stroke-dasharray:0.4, 0.4"
+     id="line110"
+     y2="39.335999"
+     y1="39.335999"
+     x2="181.14534"
+     x1="151.14534"
+     class="dashed-line" />
+  <text
+     style="font-size:4px;font-family:Helvetica"
+     id="text112"
+     y="37.835999"
+     x="238.14534"
+     class="scoresheet_duration_value" />
+  <rect
+     class="shade"
+     x="0.14534281"
+     y="56.335999"
+     width="184.17143"
+     height="10.5"
+     id="rect120"
+     style="fill:#e0e0e0;stroke-width:0.83053035" />
+  <rect
+     class="table"
+     x="0.14534281"
+     y="45.835999"
+     width="184.17143"
+     height="21"
+     id="rect122"
+     style="fill:none;stroke:#000000;stroke-width:0.29068562" />
+  <line
+     class="table_line"
+     x1="0.14534281"
+     x2="184.16013"
+     y1="51.085999"
+     y2="51.085999"
+     id="line124"
+     style="stroke:#000000;stroke-width:0.0830177" />
+  <line
+     class="table_thick-line"
+     x1="0.14534281"
+     x2="184.31677"
+     y1="56.335999"
+     y2="56.335999"
+     id="line126"
+     style="stroke:#000000;stroke-width:0.29068562" />
+  <line
+     class="table_line"
+     x1="0.14534281"
+     x2="184.3022"
+     y1="61.585999"
+     y2="61.585999"
+     id="line128"
+     style="stroke:#000000;stroke-width:0.08304975" />
+  <line
+     class="table_line"
+     x1="37.773914"
+     x2="37.773914"
+     y1="45.835999"
+     y2="66.835999"
+     id="line130"
+     style="stroke:#000000;stroke-width:0.1" />
+  <line
+     class="table_thick-line"
+     x1="44.145344"
+     x2="44.145344"
+     y1="45.835999"
+     y2="66.835999"
+     id="line132"
+     style="stroke:#000000;stroke-width:0.34999999" />
+  <text
+     class="table_name"
+     x="0.64534283"
+     y="49.523499"
+     id="text134"
+     style="font-size:3px;font-family:Helvetica">Arne Aalders</text>
+  <text
+     class="table_name"
+     x="0.64534283"
+     y="54.773499"
+     id="text136"
+     style="font-size:3px;font-family:Helvetica">Beate Blom</text>
+  <text
+     class="table_name"
+     x="0.64534283"
+     y="60.023499"
+     id="text138"
+     style="font-size:3px;font-family:Helvetica">Chris Corsen</text>
+  <text
+     class="table_name"
+     x="0.64534283"
+     y="65.273499"
+     id="text140"
+     style="font-size:3px;font-family:Helvetica">Dana Dumler</text>
+  <line
+     class="table_line"
+     x1="50.516773"
+     x2="50.516773"
+     y1="45.835999"
+     y2="66.835999"
+     id="line142"
+     style="stroke:#000000;stroke-width:0.1" />
+  <line
+     class="table_line"
+     x1="56.888199"
+     x2="56.888199"
+     y1="45.835999"
+     y2="66.835999"
+     id="line144"
+     style="stroke:#000000;stroke-width:0.1" />
+  <line
+     class="table_line"
+     x1="63.259628"
+     x2="63.259628"
+     y1="45.835999"
+     y2="66.835999"
+     id="line146"
+     style="stroke:#000000;stroke-width:0.1" />
+  <line
+     class="table_line"
+     x1="69.631058"
+     x2="69.631058"
+     y1="45.835999"
+     y2="66.835999"
+     id="line148"
+     style="stroke:#000000;stroke-width:0.1" />
+  <line
+     class="table_line"
+     x1="76.00248"
+     x2="76.00248"
+     y1="45.835999"
+     y2="66.835999"
+     id="line150"
+     style="stroke:#000000;stroke-width:0.1" />
+  <line
+     class="table_line"
+     x1="82.373909"
+     x2="82.373909"
+     y1="45.835999"
+     y2="66.835999"
+     id="line152"
+     style="stroke:#000000;stroke-width:0.1" />
+  <line
+     class="table_line"
+     x1="88.745338"
+     x2="88.745338"
+     y1="45.835999"
+     y2="66.835999"
+     id="line154"
+     style="stroke:#000000;stroke-width:0.1" />
+  <line
+     class="table_line"
+     x1="95.116768"
+     x2="95.116768"
+     y1="45.835999"
+     y2="66.835999"
+     id="line156"
+     style="stroke:#000000;stroke-width:0.1" />
+  <line
+     class="table_line"
+     x1="101.4882"
+     x2="101.4882"
+     y1="45.835999"
+     y2="66.835999"
+     id="line158"
+     style="stroke:#000000;stroke-width:0.1" />
+  <line
+     class="table_line"
+     x1="107.85963"
+     x2="107.85963"
+     y1="45.835999"
+     y2="66.835999"
+     id="line160"
+     style="stroke:#000000;stroke-width:0.1" />
+  <line
+     class="table_line"
+     x1="114.23105"
+     x2="114.23105"
+     y1="45.835999"
+     y2="66.835999"
+     id="line162"
+     style="stroke:#000000;stroke-width:0.1" />
+  <line
+     class="table_line"
+     x1="120.60248"
+     x2="120.60248"
+     y1="45.835999"
+     y2="66.835999"
+     id="line164"
+     style="stroke:#000000;stroke-width:0.1" />
+  <line
+     class="table_line"
+     x1="126.97391"
+     x2="126.97391"
+     y1="45.835999"
+     y2="66.835999"
+     id="line166"
+     style="stroke:#000000;stroke-width:0.1" />
+  <line
+     class="table_line"
+     x1="133.34534"
+     x2="133.34534"
+     y1="45.835999"
+     y2="66.835999"
+     id="line168"
+     style="stroke:#000000;stroke-width:0.1" />
+  <line
+     class="table_line"
+     x1="139.71677"
+     x2="139.71677"
+     y1="45.835999"
+     y2="66.835999"
+     id="line170"
+     style="stroke:#000000;stroke-width:0.1" />
+  <line
+     class="table_line"
+     x1="146.0882"
+     x2="146.0882"
+     y1="45.835999"
+     y2="66.835999"
+     id="line172"
+     style="stroke:#000000;stroke-width:0.1" />
+  <line
+     class="table_line"
+     x1="152.45963"
+     x2="152.45963"
+     y1="45.835999"
+     y2="66.835999"
+     id="line174"
+     style="stroke:#000000;stroke-width:0.1" />
+  <line
+     class="table_line"
+     x1="158.83105"
+     x2="158.83105"
+     y1="45.835999"
+     y2="66.835999"
+     id="line176"
+     style="stroke:#000000;stroke-width:0.1" />
+  <line
+     class="table_line"
+     x1="165.20248"
+     x2="165.20248"
+     y1="45.835999"
+     y2="66.835999"
+     id="line178"
+     style="stroke:#000000;stroke-width:0.1" />
+  <line
+     class="table_line"
+     x1="171.57391"
+     x2="171.57391"
+     y1="45.835999"
+     y2="66.835999"
+     id="line180"
+     style="stroke:#000000;stroke-width:0.1" />
+  <line
+     class="table_line"
+     x1="177.94534"
+     x2="177.94534"
+     y1="45.835999"
+     y2="66.835999"
+     id="line182"
+     style="stroke:#000000;stroke-width:0.1" />
+  <line
+     class="table_line"
+     x1="184.31677"
+     x2="184.31677"
+     y1="45.835999"
+     y2="66.835999"
+     id="line184"
+     style="stroke:#000000;stroke-width:0.1" />
+  <text
+     x="40.959629"
+     y="55.093811"
+     id="text660"
+     style="font-size:4px;font-family:Helvetica;text-anchor:middle">A</text>
+  <text
+     x="40.959629"
+     y="60.343811"
+     id="text662"
+     style="font-size:4px;font-family:Helvetica;text-anchor:middle">R</text>
+  <text
+     x="47.331059"
+     y="55.093811"
+     id="text664"
+     style="font-size:4px;font-family:Helvetica;text-anchor:middle">0</text>
+  <text
+     x="47.331059"
+     y="60.343811"
+     id="text666"
+     style="font-size:4px;font-family:Helvetica;text-anchor:middle">0</text>
+  <text
+     style="font-size:4px;font-family:Helvetica"
+     id="text100-3"
+     y="9.4852905"
+     x="151.30482"
+     class="scoresheet_begin_value">Dein Name</text>
+  <text
+     style="font-size:4px;font-family:Helvetica"
+     id="text100-3-6"
+     y="17.245777"
+     x="155.30482"
+     class="scoresheet_begin_value">-</text>
+  <text
+     style="font-size:4px;font-family:Helvetica"
+     id="text14-7"
+     y="20.554548"
+     x="14.145344"
+     class="scoresheet_date_value">MX R64</text>
+  <line
+     style="stroke:#000000;stroke-width:0.23939495"
+     id="line38-3"
+     y2="15.836"
+     y1="15.836"
+     x2="69.233063"
+     x1="39.145344"
+     class="divider-line" />
+  <text
+     x="53.331059"
+     y="65.093811"
+     id="text664-3"
+     style="font-size:4px;font-family:Helvetica;text-anchor:middle">1</text>
+</svg>

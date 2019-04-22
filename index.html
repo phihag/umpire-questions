@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="utf-8" />
+<title>Schiedsrichter-Prüfungsfragen</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+html, body {
+	margin: 0;
+	padding: 0;
+	font-size: 16px;
+	font-family: -apple-system, BlinkMacSystemFont, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+main {
+	margin: 0 10px;
+}
+
+h1 {
+	margin-top: 0;
+	font-size: 19px;
+	text-align: center;
+}
+
+.scoresheet {
+	width: 100%;
+	max-width: 40em;
+}
+
+.q {
+	margin-top: 1.2em;
+}
+.a {
+	margin-top: 0.4em;
+}
+
+@media print {
+	html, body {
+		font-family: serif;
+	}
+}
+
+</style>
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+	var answers = document.querySelectorAll('.a');
+	for (var i = 0;i < answers.length;i++) {
+		var a = answers[i];
+
+		a.style.visibility = 'hidden';
+	}
+});
+</script>
+
+</head>
+<body>
+
+<main>
+<h1>Beispiel für eine Schiedsrichter-Prüfung</h1>
+
+<p>Die folgenden Fragen geben einen Eindruck, was einen in der Schiedsrichter-Prüfung erwartet.  Komplexität und Umfang orientiert sich an der Prüfung zum nationalen Schiedsrichter; im Schiedsrichter-Grundlehrgang sind die Fragen einfacher. Einige dieser Fragen spiegeln auch eher den praktischen Teil und würden so nicht in der theoretischen Prüfung gestellt.</p>
+
+<p>Offizielle Ansagen sind <em>kursiv formatiert</em>. Diese Ansagen müssen genau so in der theoretischen Prüfung notiert und in der praktischen Prüfung verwendet werden.</p>
+
+<div class="q" id="q1">Dein erstes Turnier als Schiedsrichter! Wie solltest Du gekleidet sein?</div>
+<div class="a">Schwarze Schuhe, schwarze Socken, lange schwarze Hose, schwarzes Oberteil (wenn möglich offizielles Schiedsrichter-Shirt)</div>
+
+<div class="q" id="q2">Was bringst du als Schiedsrichter mit zu dem Turnier?</div>
+<div class="a"><ul>
+<li>Mindestens 2 Kugelschreiber</li>
+<li>Wahlmünze (z.B. <a href="https://www.amazon.de/b-4007-Schiedsrichter-Wählmarke-schwarz/dp/B001A9GJD2/">diese</a>, notfalls auch ein 1€-Stück)</li>
+<li>Stoppuhr, wenn möglich als Armbanduhr (kein Handy)</li>
+<li>Gelbe und rote Karte. Ohne Referee (z.B. bei Ligaspielen) auch eine schwarze Karte</li>
+<li>2m-Zollstock</li>
+<li>Schiedsrichterausweis</li>
+<li>optional: Badminton-Regelwerk</li>
+<li>optional: Ordnungen des Verbands, der das Turnier veranstaltet</li></ul></div>
+
+<div class="q" id="q3">Der Ausrichter musste einige Felder nachkleben und bittet dich, nachzumessen. Wie groß ist ein Badminton-Feld?</div>
+<div class="a">610<span title="centimeter">cm</span> breit, 1340<span title="centimeter">cm</span> lang</div>
+
+<div class="q" id="q4">Wie groß ist das Aufschlagfeld im Einzel?</div>
+<div class="a">
+Breite: 4<span title="centimeter">cm</span> Seitenlinie + 253<span title="centimeter">cm</span> Box + 4<span title="centimeter">cm</span> mittlere Linie = 261<span title="centimeter">cm</span><br/>
+Länge: 4<span title="centimeter">cm</span> vordere Aufschlaglinie + 388<span title="centimeter">cm</span> Box + 4<span title="centimeter">cm</span> Doppelaufschlaglinie + 72<span title="centimeter">cm</span> hinteres Feld + 4<span title="centimeter">cm</span> Grundlinie = 472<span title="centimeter">cm</span>
+</div>
+
+<div class="q" id="q5">Wie groß ist das Aufschlagfeld im Doppel?</div>
+<div class="a">
+Breite: 4<span title="centimeter">cm</span> Seitenlinie + 42<span title="centimeter">cm</span> Seitenstreifen + 4<span title="centimeter">cm</span> Einzellinie + 253cm Box + 4<span title="centimeter">cm</span> mittlere Linie =  307<span title="centimeter">cm</span><br/>
+Länge: 4<span title="centimeter">cm</span> vordere Aufschlaglinie + 388<span title="centimeter">cm</span> Box + 4<span title="centimeter">cm</span> Doppelaufschlaglinie = 396<span title="centimeter">cm</span>
+</div>
+
+<div class="q" id="q6">Der Referee bittet dich, das Netz zu überprüfen. Was überprüfst Du?</div>
+<div class="a"><ul>
+<li>Keine (größeren) Löcher</li>
+<li>Netz sollte direkt am Pfosten anliegen.</li>
+<li>Der Pfosten sollte in der Mitte des Feldes und auf den Doppel-Seitenlinien stehen.</li>
+<li>Höhe des Netzes am Netzpfosten: 155<span title="centimeter">cm</span></li>
+<li>Höhe des Netzes in der Mitte: 152,4<span title="centimeter">cm</span></li>
+</ul>
+</div>
+
+<div class="q" id="q7">Die Halle ist 10m hoch. Das Deckengerüst hängt allerdings bis zu einer Höhe von 8m. Darunter hängt auch noch ein Basketballkorb. In 7m Höhe ist außerdem ein Seil, in 9m ein Belüftungsschacht. Welche Regeln gelten beim Aufschlag, insofern der Referee nichts anderes festlegt?</div>
+<div class="a">Die Halle ist eingeschränkt bespielbar. Beim Aufschlag gilt:
+<ul>
+<li>Ball berührt Decke: Wiederholung</li>
+<li>Berührung des Deckengerüsts: Wiederholung</li>
+<li>Berührung des Seils: Wiederholung</li>
+<li>Berührung des Basketballkorbs: Wiederholung</li>
+<li>Berührung des Lüftungsschachts: Wiederholung</li>
+<li>Überfliegen des Deckengerüsts: Wiederholung</li>
+<li>Überfliegen des Basketballkorbs: Wiederholung</li>
+<li>Überfliegen des Seils: Prinzipiell Wiederholung, könnte aber auch als Weiterspielen festgelegt werden</li>
+<li>Überfliegen des Lüftungsschafts: Wiederholung</li>
+</ul>
+</div>
+
+<div class="q" id="q8">Was gilt im Spiel, sofern der Referee nichts anderes festlegt?</div>
+<div class="a">Die Halle ist eingeschränkt bespielbar. Im Spiel gilt:
+<ul>
+<li>Ball berührt Decke: Fehler</li>
+<li>Berührung des Deckengerüsts: Fehler</li>
+<li>Berührung des Seils: Wiederholung</li>
+<li>Berührung des Basketballkorbs: Wiederholung</li>
+<li>Berührung des Lüftungsschachts: Fehler (weil über lichter Höhe)</li>
+<li>Überfliegen des Deckengerüsts: Wiederholung</li>
+<li>Überfliegen des Basketballkorbs: Wiederholung</li>
+<li>Überfliegen des Seils: Prinzipiell Wiederholung, könnte aber auch als Weiterspielen festgelegt werden</li>
+<li>Überfliegen des Lüftungsschafts: Wiederholung</li>
+</ul>
+</div>
+
+<div class="q" id="q9">Dein erstes Spiel! Ein Spieler hat seltsame Bälle aus Malaysia mitgebracht. Darf er mit ihnen spielen? Welche Eigenschaften muss ein Federball erfüllen?</div>
+<div class="a">Bei den meisten Turnieren müssen die Bälle durch den Ausrichter zugelassen werden. Der DBV und die Landesverbände führen meist Listen von zugelassenen Bällen. Bei einigen Turnieren ist die Ballsorte auch vorgeschrieben.<br/>
+Ein Federball muss 16 Federn mit einer Länge zwischen 62mm und 70mm haben und zwischen 4,74g und 5,50g wiegen.</div>
+
+<div class="q" id="q10">Du triffst die Spieler. Was überprüfst Du?</div>
+<div class="a"><ul>
+<li>Kleidung und Schläger badmintongerecht? (insbesondere keine gefährlichen Vorrichtungen)</li>
+<li>Bälle in ausreichender Zahl mitgebracht? (Wenn sie von den Spielern gestellt werden)</li>
+<li>Ersatzschläger mitgebracht?</li>
+<li>Genügen die Aufschriften auf der Kleidung den Bedingungen des Turniers? Falls der Referee nichts anderes festlegt, dann sind auf nationalen Turnieren alle nicht obszönen Werbungen erlaubt. Der Name muss allerdings üblicherweise korrekt sein, also nicht "Lin Dan" oder so. Näheres (wie z.B. paareinheitliche Kleidung) legt der Referee fest.</li>
+</ul></div>
+
+<div class="q" id="q11">Arne Aalders spielt mit Beate Blom gegen Chris Corsen und Dana Dumler. Für alle ist es das erste Spiel mit Schiedsrichter. Arne und Beate gewinnen die Wahl. Welche Möglichkeiten haben sie?</div>
+<div class="a">Aufschlag, Rückschlag, linke Spielfeldseite, rechte Spielfeldseite</div>
+
+<div class="q" id="q12">Beate möchte aufschlagen. Was fragst du Chris und Dana?</div>
+<div class="a"><em>Wählen Sie ihre Seite. Wer wird zuerst zurückschlagen?</em> (Kann in der Praxis auch anders formuliert werden)</div>
+
+<div class="q" id="q13">Der Referee hat nach der Wahl einen Balltest angeordnet. Was ist zu tun?</div>
+<div class="a">Ein Spieler schlägt mit einem vollen Unterhandschlag auf Höhe der Grundlinie den Ball flach gerade übers Feld. Der Ball soll zwischen 53cm und 99cm vor der Grundlinie landen. Einige Felder haben dafür Markierungen; das ist etwa eine Schlägerlänge vor und nach der Doppelaufschlaglinie.</div>
+
+<div class="q" id="q14">Die vom Referee angesetzte Spielfeldeingewöhnungzeit von 90s nach Balltest ist vorüber. Was sagst Du an? Was passiert bis zu Diener nächsten Ansage?</div>
+<div class="a">Ansage: <em>Spielbereit machen.</em> Die Spieler sollten sich jetzt ihrer Warmup-Kleidung entledigen (z.B. Jacke ausziehen). Jeder Spieler darf noch einen Probeaufschlag machen (im Einzel 2).</div>
+
+<div class="q" id="q15">Beate schlägt von deiner linken Seite auf Chris auf. Was sagst Du an?</div>
+<div class="a"><em>Meine Damen und Herren. Zu meiner Rechten</em> [mit der rechten Hand auf den rechten T-Punkt zeigen], <em>Chris Corsen und Dana Dumler, und zu meiner Linken</em> [mit der linken Hand auf den linken T-Punkt zeigen]<em>, Arne Aalders und Beate Blom. Beate Blom schlägt auf zu Chris Corsen. Null beide, bitte spielen.</em></div>
+
+<div class="q" id="q16">Was steht jetzt auf dem Schiedsrichterzettel?</div>
+<div class="a"><img src="sheet1.svg" class="scoresheet" /></div>
+
+<div class="q" id="q17">Beate schlägt zu hoch auf. Was genau bedeutet das?</div>
+<div class="a">Der gesamte Ball muss beim Aufschlag im Moment der Ballberührung unterhalb der untersten Rippe des Aufschlägers sein. (Regel §9.1.6)</div>
+	
+<div class="q" id="q18">Was sagst und zeigst Du an? Was steht auf Deinem Zettel?</div>
+<div class="a"><em>Fehler</em> [Zeige Zeichen für zu hohen Aufschlag: Arm horizontal] <em>Aufschlagwechsel. Eins Null.</em><br/>
+<img src="sheet2.svg" class="scoresheet" />
+</div>
+
+<div class="q" id="q19">Im nächsten Ballwechsel smasht Arne den Ball auf den Boden, genau in die Mitte des Feldes. Was sagst Du an? Was steht auf Deinem Zettel?</div>
+<div class="a"><em>Aufschlagwechsel. Eins beide.</em><br/>
+<img src="sheet3.svg" class="scoresheet" /></div>
+
+<div class="q" id="q20">Der nächste Aufschlag landet auf der vorderen Linie. Chris hatte sich allerdings gerade zum Nachbarfeld umgedreht, als der Aufschlag kam. Was sagst Du an? Was steht auf Deinem Zettel?</div>
+<div class="a">Nur der Auf- und Rückschläger müssen bereit sein. Ihre Partner sind in den Regeln nicht erwähnt. Die Linie gehört zum Feld. Also:<br/>
+<em>Zwei Eins</em><br/>
+<img src="sheet4.svg" class="scoresheet" /></div>
+
+<div class="q" id="q21">Im nächsten Ballwechsel täuscht Dana einen kurzen Schlag an, schlägt aber dann doch weit. Der Ball landet im Feld. Was sagst Du an? Was steht auf deinem Zettel?</div>
+<div class="a">Im Spiel dürfen Spieler antäuschen, wie sie wollen.<br/>
+<em>Aufschlagwechsel. Zwei beide.</em><br/>
+<img src="sheet5.svg" class="scoresheet" /></div>
+
+<div class="q" id="q22">Beim nächsten Aufschlag stehen Arne und Dana beide mit einem Fuß auf der Aufschlaglinie. Der Aufschlag geht ins Aus. Was sagst Du an? Was steht auf deinem Zettel?</div>
+<div class="a">Die Partner der Auf- und Rückschläger (in diesem Fall Dana) dürfen stehen, wo sie wollen. Die Auf- und Rückschläger dürfen aber nicht die Linie berühren(Regel §9.1.3).<br/>
+<em>Fehler Rückschläger. Drei zwei.</em><br/>
+<img src="sheet6.svg" class="scoresheet" /></div>
+
+<div class="q" id="q23">Der nächste Aufschlag ist ein Netzroller, der prompt mit zu wenig Kontrolle hinter die Grundlinie geschlagen wird, bevor Du etwas gesagt hast. Was sagst Du an? Was steht auf deinem Zettel?</div>
+<div class="a">Netzroller sind im Badminton ohne Bedeutung, das Spiel geht weiter.<br/>
+<em>Aus. Vier zwei.</em><br/>
+<img src="sheet7.svg" class="scoresheet" /></div>
+
+<div class="q" id="q24">Im nächsten Ballwechsel schlägt Chris einen Ball vom Aus am Netz vorbei ins Feld. Was sagst Du an? Was steht auf Deinem Zettel?</div>
+<div class="a">Nach Regel §13.3.2 muss der Ball über das Netz fliegen.<br/>
+<em>Fehler. Aufschlagwechsel. Drei Vier.</em><br/>
+<img src="sheet8.svg" class="scoresheet" /></div>
+
+<div class="q" id="q25">Im nächsten Ballwechsel fliegt ein Ball vom Nachbarfeld auf die Doppelaufschlaglinie.  Sekundenbruchteile danach schwingt Dana nach dem Töten des Balls über dem Netz aus. Der Ball landet erst nach dem Übergreifen auf dem Boden innerhalb des Feldes. Was sagst du an? Was steht auf deinem Zettel?</div>
+<div class="a">Ein Ball vom Nachbarfeld führt nicht zwingend zur Wiederholung (siehe §3.5.2 Anweisungen für technische Offizielle). In diesem Fall hat der Ball niemanden irritiert. Regel §13.4.2 erlaubt das Eindringen des Schlägers nach dem Schlag.<br/>
+<em>Aufschlagwechsel. 5 beide.</em><br/>
+<img src="sheet9.svg" class="scoresheet" /></div>
+
+<div class="q" id="q26">Im nächsten Ballwechsel landet ein Smash von Beate nahe der Grundlinie. Du kannst nicht genau erkennen wo der Ball gelandet ist, und ein unabhängiger Zuschauer stimmt zu. Chris und Dana meinen das er aus war, die anderen Spieler sind sich nicht sicher. Was sagst Du an? Was steht auf deinem Zettel?</div>
+<div class="a">Zuschauer oder Spieler beeinflussen das Ergebnis der Schiedsrichterentscheidung nicht, mit der Ausnahme wenn Spieler gegen sich entscheiden. Siehe auch §4.5 Anweisungen für technische Offizielle.<br/>
+<em>Wiederholung. 5 beide.</em> (Der Schiedsrichterzettel bleibt unverändert).</div>
+
+<div class="q" id="q27">Der nächste Aufschlag geht direkt ins Netz. Was sagst Du an? Was steht auf deinem Zettel?</div>
+<div class="a">"Fehler" muss nach §3.3.4.3 Anweisungen für technische Offizielle in dieser Situation nicht unbedingt gesagt werden.<br/>
+<em>Aufschlagwechsel. Sechs Fünf.</em><br/>
+<img src="sheet10.svg" class="scoresheet" /></div>
+
+<div class="q" id="q28">Wer schlägt jetzt auf? Wer schlägt zurück?</div>
+<div class="a">Arne schlägt zu Chris auf. Das kann man im Schiedsrichterzettel ablesen, indem man schaut, wie der Punktestand und Aufschläger der beiden Teams bei ihrem letzten Aufschlag war.</div>
+
+<div class="q" id="q29">Am Ende eines langen Ballwechsels spielt Arne einen kurzen Drop. Der Ball trifft die Netzkante und verfängt sich auf dem Netz. Der Ball bleibt hängen, und Chris fragt ob er weiterspielen soll. Wie entscheidest du? Was sagst du an? Was steht auf deinem Zettel?</div>
+<div class="a"><em>Wiederholung</em> per §14.2.3.1. Der Zettel bleibt unverändert.</div>
+
+<div class="q" id="q30">Im nächsten Ballwechsel landet Beates Clear genau auf der Grundlinie. Was sagst du an? Was steht auf deinem Zettel?</div>
+<div class="a">Es gibt keine Ansage für Innerhalb. Das Zeichen, das der Linienrichter gibt (rechte Hand nach vorne) kann verwendet werden.<br/>
+<em>Sieben Fünf</em><br/>
+<img src="sheet11.svg" class="scoresheet" /></div>
+
+<div class="q" id="q31">Im nächsten Ballwechsel trifft Dana den Ball beim Smash nicht genau. Zwei Federn fliegen weg, und der Ball fliegt plötzlich viel schneller und landet hinter der Grundlinie von Arne und Beate. Wie entscheidest du? Was sagst du an? Was steht auf deinem Zettel?</div>
+<div class="a">Nach §14.2.4 wird Wiederholung nur gegeben, wenn die Basis des Balles sich von den Federn löst.<br/>
+<em>Aus. Aufschlagwechsel. Sechs Sieben.</em><br/>
+Im Schiedsrichterzettel wird der Ball eingetragen:<br/>
+<img src="sheet12.svg" class="scoresheet" /></div>
+
+<div class="q" id="q32">Chris täuscht einen langen Aufschlag an, aber bevor er denn Ball berührt, hält er noch mal inne und schlägt dann doch kurz auf. Beate returniert ins Netz. Wie entscheidest du? Was sagst du an? Was steht auf deinem Zettel?</div>
+<div class="a">Das ist ein Aufschlagfehler gemäß §9.18.<br/>
+<em>Fehler.</em> Dabei Handzeichen zeigen: Linke Hand von links nach rechts schieben, dabei unterbrechen. <em>Aufschlagwechsel. Acht Sechs.</em><br/>
+<img src="sheet13.svg" class="scoresheet" /></div>
+
+<div class="q" id="q32">Chris lässt sich jetzt sehr viel Zeit, bis er zum Rückschlag bereit ist. Der lange Aufschlag fällt auf die Grundlinie. Wie entscheidest du? Was sagst du an? Was steht auf deinem Zettel?</div>
+<div class="a"><em>Bitte spielen.</em> (oder <em>Sieben Acht</em>, zu Chris)<br/>
+<em>Aus. Aufschlagwechsel. Sieben Acht.</em><br/>
+<img src="sheet14.svg" class="scoresheet" /></div>
+
+<div class="q" id="q33">Chris lässt sich wieder viel Zeit und spricht noch mit seinem Coach. Sein Clear geht dann auch prompt ins Seitenaus. Arne möchte den Ball trotzdem noch schlagen, lässt ihn aber fallen, nachdem sein Coach "Aus" sagt.<br/>Wie entscheidest du? Was sagst du an? Was steht auf deinem Zettel?</div>
+<div class="a">Zu Chris: <em>Bitte spielen.</em>. Ggf. kann der Spieler auch herangeholt werden.<br/>
+Wenn ein Coach redet, während der Ball im Spiel ist, wird Wiederholung gegeben (vergleiche Anweisungen für technische Offizielle 3.5.6.3).
+<em>Wiederholung. Sieben Acht.</em> Dann mit dem Spieler sprechen, das der Coach nicht ins Spiel reinrufen darf.  (Offizielle Ansage: <em>Coachen ist während des Ballwechsels nicht erlaubt.</em>). Ggf. kann hier auch der Referee gerufen werden.<br/>
+Der Schiedsrichterzettel bleibt unverändert.</div>
+
+<div class="q" id="q34">Chris lässt sich schon wieder viel Zeit, und alle anderen Spieler warten auf ihn. Wie entscheidest du? Was sagst du an? Was steht auf deinem Zettel?</div>
+<div class="a"><em>Chris Corsen, kommen Sie zu mir. Chris Corsen, Verwarnung wegen unsportlichen Verhaltens.</em> Dabei die gelbe Karte zeigen. <em>Sieben Acht.</em><br/>
+Auf dem Schiedsrichterzettel wird ein W eingetragen:<br/>
+<img src="sheet15.svg" class="scoresheet" /><br/>
+Nach Ende des Spiels sollte noch kurz eine Bemerkung (z.B. "Gelbe Karte gegen Chris Corsen bei 7:8 im ersten Satz wegen Spielverzögerung") unten oder auf der Rückseite des Schiedsrichterzettels hinzugefügt werden.</div>
+
+<div class="q" id="q35">In einem spannenden Ballwechsel mit vielen Dives tritt Beate beim Töten unter das Netz. Der Ball trifft Dana. Wie entscheidest du? Was sagst du an? Was steht auf deinem Zettel?</div>
+<div class="a">Nach §13.4.3 ist das kein Fehler, solange der Gegner nicht behindert oder abgelenkt wird. Wenn der Ball von einem Spieler berührt wird, ist das aber ein Fehler nach §13.3.4.<br/>
+<em>Fehler. Aufschlagwechsel. Neun Sieben.</em><br/>
+Das Feld darf gewischt werden. Wenn vorhanden von Mopper-Kids oder Linienrichtern, ansonsten von den Spielern selber.<br/>
+<img src="sheet16.svg" class="scoresheet" /></div>
+
+<div class="q" id="q36">Dana hat sich bei einem Dive das Knie etwas aufgeschürft. Es blutet etwas, aber sie möchte weiterspielen. Wie entscheidest du? Was sagst du an? Was steht auf deinem Zettel?</div>
+<div>Eine blutende Wunde muss nach §3.5.8.1 ATO gestillt werden. In solchen außerordentlichen Fällen muss der Referee gerufen werden. Dazu die rechte Hand heben.
+Gleichzeitig eine Stoppuhr starten, um die Länge der Spielunterbrechung zu dokumentieren.
+Der Referee wird einen Arzt oder Physio holen, welcher ein Pflaster verwenden kann.<br/>
+Im Schiedsrichterzettel dann <code>V</code> für Verletzung und <code>R</code> für Referee eintragen, z.B.:<br/>
+<img src="sheet17.svg" class="scoresheet" /><br/>
+Nach Ende des Spiels können dann weitere Anmerkungen eingetragen werden.
+</div>
+
+<div class="q" id="q37">Im nächsten Ballwechsel spielt Dana einen flachen Drive, der im Seitenaus landet. Dana sagt aber, dass der Ball Beate gestriffen hätte. Beate hat nichts gemerkt. Du bist dir nicht sicher. Wie entscheidest du? Was sagst du an? Was steht auf deinem Zettel?</div>
+<div class="a">Nach §4.4 Anweisungen für Technische Offizielle sagt der Schiedsrichter im Zweifelsfall keinen Fehler an.<br/>
+<em>Aus. Zehn Sieben.</em><br/>
+<img src="sheet18.svg" class="scoresheet" /><br/>
+</div>
+
+<div class="q" id="q38">Während des nächsten Ballwechsels fällt das Licht aus und Du sitzt plötzlich im Dunklen. Chris trifft im Dunklen den Ball ungenau, und er fliegt ins Nachbarfeld. Nach 3 Minuten Dunkelheit wird das Licht wieder einngeschaltet. Wie entscheidest du? Was sagst du an? Was steht auf deinem Zettel?</div>
+<div class="a">Bei Lichtausfall wird der Ballwechsel abgebrochen: <em>Wiederholung</em>.<br/>
+Solange es dunkel ist bleibt das Spiel unterbrochen. Starte deine Stoppuhr und sage an: <em>Das Spiel ist unterbrochen.</em>.
+Sobald das Licht wieder an ist, notiere die Dauer der Unterbrechung und frage die Spieler <em>Sind sie spielbereit?</em>.<br/>
+Das Spiel geht weiter mit <em>Zehn Sieben, bitte spielen.</em>.<br/>
+<img src="sheet19.svg" class="scoresheet" /><br/>
+Nach Ende des Spiels kannst Du unten auf dem Schiedsrichterzettel (oder auf der Rückseite) eine kleine Notiz wie "3 Minuten Lichtausfall beim Stand von 10:7 im 1.Satz" hinzufügen.
+</div>
+
+<div class="q" id="q39">Die Spieler können sich nicht mehr erinnern, wie sie vor der Unterbrechung standen. Wer schlägt auf? Wer schlägt zurück?</div>
+<div class="a">Der letzten Punktestand auf dem Schiedsrichterzettel ist 10(Arne). Der letzte Punktestand der Gegner ist 7(Dana). Daher schlägt Arne von rechts auf Chris auf.</div>
+
+<div class="q" id="q40">Bevor der Ballwechsel beginnen kann, beleidigt Dana die Gegner. Wie entscheidest du? Was sagst du an? Was steht auf deinem Zettel?</div>
+<div class="a">Ein einfache Beleidigung ist normalerweise eine gelbe Karte (je nach Schweregrad). In diesem Fall ist an die Seite (nämlich an Chris) aber schon eine gelbe Karte in diesem Spiel gezeigt worden. Nach §16.7.1.2 ist demnach eine rote Karte zu zeigen.<br/>
+<em>Dana Dumler, kommen Sie zu mir. Dana Dumler, Fehler wegen unsportlichen Verhaltens.</em> Direkt danach durch Heben der rechten Hand den Referee rufen (vergleiche §16.7.2).<br/>
+Nach Gespräch mit dem Referee: <em>Elf Sieben. Pause</em> und Stoppuhr starten.<br/>
+<img src="sheet20.svg" class="scoresheet" /><br/>
+</div>
+
+<div class="q" id="q41">Auf was solltest Du jetzt achten? Was sagst du an? Was steht auf deinem Zettel?</div>
+<div class="a">Während der Pause sollte der Schiedsrichter kontrollieren:
+<ul>
+<li>Sind noch genügend Bälle vorhanden, mindstens bis zur nächsten Pause?</li>
+<li>Die Spieler dürfen nicht auf dem Feld trinken, ggf. darauf hinweisen.</li>
+<li>Die Boxen mit dem Equipment der Spieler sollen beim Schiedsrichterstuhl bleiben, und das Equipment der Spieler sollte (insofern möglich) da drin sein.</li>
+<li>Ein guter Schiedsrichter wirft noch mal einen Blick auf den Zettel, um direkt zu wissen, wer auf- und wer zurückschlägt.</li>
+</ul>
+Die Spieler dürfen das Feld in den Pausen verlassen.<br/>
+Nach 40 Sekunden sagst Du an: <em>Feld 1, 20 Sekunden. Feld 1, 20 Sekunden</em>.<br/>
+Dann ggf. die Coaches ansprechen, falls sie das Spielfeld nicht verlassen.
+Dann: <em>Elf Sieben. Bitte spielen.</em> 
+</div>
+
+<div class="q" id="q42">Arne kommt 90 Sekunden nach Beginn der Pause auf's Feld. Wie entscheidest du? Was sagst du an? Was steht auf deinem Zettel?</div>
+<div class="a">Das ist nach Regel §16.2 / §16.7.1.3 automatisch eine rote Karte.<br/>
+<em>Arne Aalders, kommen Sie zu mir.</em> (rote Karte zeigen) <em>Arne Aalders, Fehler wegen unsportlichen Verhaltens.</em> Direkt danach/dabei durch Heben der rechten Hand den Referee rufen (vergleiche §16.7.2).<br/>
+<em>Aufschlagwechsel. Acht Elf. Bitte spielen.</em><br/>
+<img src="sheet21.svg" class="scoresheet" /><br/>
+Nach Ende des Spiels noch eine Notiz hinzufügen, z.B. "Arne Aalders war bei der Pause im ersten Satz erst 90 Sekunden nach Beginn der Pause wieder auf dem Spielfeld".
+</div>
+
+<div class="q" id="q43">Das Spiel beruhigt sich etwas. In einem späteren Ballwechsel tritt Arne ungünstig auf und verfehlt den Ball, der im Feld landet. Er hält sich am Knöchel. Vor dem Ballwechsel sah dein Zettel wie folgt aus:<br/>
+<img src="sheet22.svg" class="scoresheet" /><br/>
+Wie entscheidest du? Was sagst du an? Was steht auf deinem Zettel?
+</div>
+<div class="a"><em>Aufschlagwechsel. Neunzehn beide.</em><br/>
+Referee rufen und Stoppuhr starten. Der Referee wird mit dem Physio auf's Feld kommen.<br/>
+Ggf. den Spieler fragen: <em>Können Sie weiterspielen?</em> oder <em>Geben Sie auf?</em><br/>
+Auf dem Zettel können schon <code>V</code> und <code>R</code> eingetragen werden:<br/>
+<img src="sheet23.svg" class="scoresheet" />
+</div>
+
+<div class="q" id="q44">Glücklicherweise war's halb so schlimm. Mit etwas Tape kann Arne nach 2 Minuten Unterbrechung weiterspielen. Wie entscheidest du? Was sagst du an? Was steht auf deinem Zettel?</div>
+<div class="a">
+Dauer der Verletzung eintragen:<br/>
+<img src="sheet24.svg" class="scoresheet" /><br/>
+Die Ansage enthält dann "Bitte spielen": <em>Neunzehn beide. Bitte spielen.</em>
+</div>
+
+<div class="q" id="q45">Im nächsten Ballwechsel täuscht Beate einen Drop an, lässt den Ball aber durch. Arne spielt einen weiten Clear, der auf der Grundlinie landet. Chris und Dana waren von Beate irritiert. Wie entscheidest du? Was sagst du an? Was steht auf deinem Zettel?</div>
+<div class="a">Nach dem Aufschlag dürfen Spieler beliebig Schläge antäuschen. Nur das beabsichtigte Ablenken des Gegners ist nach §13.4.5 ein Fehler. In der Praxis ist das extrem selten.<br/>
+<em>Aufschlagwechsel. Zwanzig Satzpunkt Neunzehn.</em><br/>
+<img src="sheet25.svg" class="scoresheet" /></div>
+
+
+<div class="q" id="q46">Im nächsten Ballwechsel will Arne töten, aber trifft den Ball nicht und schwingt über dem Netz aus, ohne es zu berühren. Beate spielt einen Drop. Dana spielt ins Seitenaus, berührt aber das Netz.<br/>
+Wie entscheidest du? Was sagst du an? Was steht auf deinem Zettel?</div>
+<div class="a">Sobald Arne über das Netz schwingt, ohne den Ball getroffen zu haben, ist das ein Fehler (§13.4.2). Ein Fehler beendet sofort den Ballwechsel(§15.3).<br/>
+<em>Fehler. Aufschlagwechsel. Zwanzig beide.</em><br/>
+Bei 20:20 ist ein Strich hinzuzufügen:<br/>
+<img src="sheet26.svg" class="scoresheet" /></div>
+
+<div class="q" id="q47">Im nächsten Ballwechsel fliegt Dana ihr Schläger aus der (rechten) Hand. Sie nimmt den Schläger wieder auf und spielt einen Ball mit links, der als Netzroller im Feld landet!<br/>
+Wie entscheidest du? Was sagst du an? Was steht auf deinem Zettel?</div>
+<div class="a">Es gibt keine Regel, die besagt wie oder mit welcher Hand ein Ball zu schlagen ist.<br/>
+<em>Einundzwanzig Zwanzig.</em><br/>
+<img src="sheet27.svg" class="scoresheet" /></div>
+
+<div class="q" id="q48">Im nächsten Ballwechsel fliegt Dana ihr Schläger aus der (rechten) Hand. Sie nimmt den Schläger wieder auf und spielt einen Ball mit links, der als Netzroller im Feld landet!<br/>
+Wie entscheidest du? Was sagst du an? Was steht auf deinem Zettel?</div>
+<div class="a">Es gibt keine Regel, die besagt wie oder mit welcher Hand ein Ball zu schlagen ist.<br/>
+<em>Einundzwanzig Zwanzig.</em><br/>
+<img src="sheet27.svg" class="scoresheet" /></div>
+
+<div class="q" id="q49">Ein paar Ballwechsel später sieht Dein Schiedsrichterzettel wie folgt aus:<br/>
+<img src="sheet28.svg" class="scoresheet" /><br/>
+Wer schlägt zu wem auf? Was sagst Du an?</div>
+<div class="a">Arne schlägt zu Chris auf.<br/>
+<em>Aufschlagwechsel. Achtundzwanzig Siebenundzwanzig.</em><br/>
+</div>
+
+<div class="q" id="q50">Arne smasht ins Netz. Dana steht allerdings so nah am Netz, das der Ball auf der anderen Seite auf ihren Fuß fällt.<br/>
+Wie entscheidest du? Was sagst du an? Was steht auf deinem Zettel?</div>
+<div class="a">Nach §15.1 ist der Ball nicht mehr im Spiel, sobald er vom Netz aus auf der eigenen Seite anfängt zu fallen.<br/>
+<em>Fehler. Aufschlagwechsel. Achtundzwanzig beide.</em><br/>
+<img src="sheet29.svg" class="scoresheet" /></div>
+
+<div class="q" id="q51">Chris trifft den Ball sehr unsauber mit Rahmen und Bespannung. Statt eines Smashes wird es nur ein kurzer Drop, der aber über das Netz ins Feld geht.<br/>
+Wie entscheidest du? Was sagst du an? Was steht auf deinem Zettel?</div>
+<div class="a">Kein Fehler nach §13.3.7. Beim Erreichen von 29 Punkten wird der Satzpunkt immer angesagt.<br/>
+<em>Neunzwanzig Satzpunkt Achtundzwanzig.</em><br/>
+<img src="sheet30.svg" class="scoresheet" /></div>
+
+<div class="q" id="q52">Dana fällt bei der Abwehr der Schläger aus der Hand. Den kurzen Drop von Beate kann sie aber noch mit der Hand ins Feld zurückschlagen.<br/>
+Wie entscheidest du? Was sagst du an? Was steht auf deinem Zettel?</div>
+<div class="a">Klarer Fehler nach §13.3.4.<br/>
+<em>Aufschlagwechsel. Neunzwanzig Satzpunkt beide.</em><br/>
+<img src="sheet31.svg" class="scoresheet" /></div>
+
+<div class="q" id="q53">Arne und Beate gewinnen in diesem Satz alle weiteren Ballwechsel. Welche Ansagen und Aktionen machst Du, bis der Ball wieder fliegt? Was steht auf deinem Zettel? Falls es mehrere Möglichkeiten gibt, dann suche Dir eine Möglichkeit aus und notiere das kurz.</div>
+<div class="a">Ein Satz endet bei 30. Daher ist die Ansage einfach:<br/>
+<em>Satz. Der erste Satz wurde gewonnen von Arne Aalders und Beate Blom mit Dreißig Neunundzwanzig.</em>
+Das Ergebnis des Satzes schreibst du noch mal auf und umkreist es, etwa wie folgt:<br/>
+<img src="sheet32.svg" class="scoresheet" /><br/><br/>
+
+Mit der Ansage "Satz" startest du deine Stoppuhr. Wenn die Spieler nach 100 Sekunden noch nicht bereit sind sagst du an:
+<em>Feld 1, 20 Sekunden. Feld 1, 20 Sekunden.</em><br/><br/>
+
+Wenn die Spieler wieder auf dem Feld sind, notierst du dir, wer auf- und wer zurückschlägt. Falls das unklar ist kannst du die Spieler auch (aber nach dem Coaching) fragen. Wenn z.B. Arne auf Chris aufschlägt, dann sieht dein Zettel zu Beginn des 2. Satzes wie folgt aus:
+<img src="sheet33.svg" class="scoresheet" /><br/>
+
+Die Ansage des 2. Satzes ist dann einfach: <em>Zweiter Satz. Null beide. Bitte spielen.</em>
+</div>
+
+<div class="q" id="q54">Weil beide Seiten sich in der Pause über die Aufschläge beschwert haben, setzt der Referee einen Aufschlagrichter ein. Nenne fünf mögliche Aufschlagfehler und beschreibe die Handsignale dazu.</div>
+<div class="a">
+<ul>
+<li>Fuß auf der Linie oder sogar außerhalb des Aufschlagfelds: rechte Hand zeigt auf rechten Fuß.</li>
+<li>Ball höher als unterste Rippe: rechte Hand waagrecht.</li>
+<li>Schläger zeigt nicht nach unten: rechte Hand senkrecht.</li>
+<li>Unterbrechung/Abstoppen beim Aufschlag: Linke Hand von links nach rechts wischen, abstoppen.</li>
+<li>Federn getroffen: Linke Hand zeigt auf rechte Handfläche.</li>
+</ul>
+</div>
+
+<div class="q" id="q55">Arne und Beate gewinnen den ersten Satz 30-29. Der zweite Satz wird von Chris und Dana mit 23-21 gewonnen. Im dritten Satz schlägt Dana auf Beate auf. Was ist deine Ansage zu Beginn des dritten Satzes?</div>
+<div class="a">Einfach <em>Entscheidungssatz. Null beide. Bitte spielen.</em></div>
+
+<div class="q" id="q56">Nach einigen Ballwechseln sieht dein Zettel im 3. Satz wie folgt aus (die Punkte bis 5:5 sind hier nicht dargestellt):<br/>
+<img src="sheet34.svg" class="scoresheet" /><br/>
+Was ist deine Ansage? Wer schlägt auf wen auf?
+</div>
+<div class="a"><em>Aufschlagwechsel. Acht Zehn.</em> Chris schlägt auf Arne auf.</div>
+
+<div class="q" id="q57">Beim nächsten Aufschlag sagt der Aufschlagrichter laut <em>Fehler</em> und hält seine rechte Hand horizontal.<br/>
+<img src="sheet34.svg" class="scoresheet" /><br/>
+Wie entscheidest du? Was sagst du an? Was steht auf deinem Zettel? Beschreibe alle Ansagen, Aktionen, und Notizen auf dem Zettel, bis der Ball wieder fliegt.
+</div>
+<div class="a"><em>Aufschlagfehler gegeben. Aufschlagwechsel. Elf Acht. Pause. Feldseiten wechseln.</em><br/>
+<img src="sheet35.svg" class="scoresheet" /><br/>
+Du startest die Stoppuhr. Nach 40 Sekunden sagst du <em>Feld 1, 20 Sekunden. Feld 1, 20 Sekunden.</em>, falls wenn die Spieler noch nicht bereit sind.<br/>
+Jetzt solltest Du noch mal überprüfen, ob Auf- und Rückschläger korrekt sind – in diesem Fall sollte Beate auf Dana aufschlagen.<br/>
+Sobald die Spieler bereit sind, sagst du <em>Elf Acht. Bitte spielen.</em>
+</div>
+
+<div class="q" id="q58">Nach einigen Ballwechseln steht es 20-15 für Chris und Dana. Beate schlägt auf, aber der Aufschlag ist zu kurz. Beschreibe alle Ansagen und Aktionen, die jetzt passieren.
+</div>
+<div class="a">
+<ol>
+<li>Ansage: <em>Aus. Satz.</em></li>
+<li>Alle Spieler schütteln sich die Hände (High Five ist auch ok) und geben dir und dem Aufschlagrichter die Hand.</li>
+<li>Ansage: <em>Das Spiel wurde gewonnen von Chris Corsen und Dana Dumler mit Neunundzwanzig-Dreißig Dreiundzwanzig-Einundzwanzig Einundzwanzig-Fünfzehn.</em></li>
+<li>Endzeit notieren oder merken.</li>
+<li>Ggf. bei Linienrichtern bedanken (kurzes Nicken).</li>
+<li>Vom Stuhl klettern und mit dem Aufschlagrichter zurück zum Referee.</li>
+<li>Beim Aufschlagrichter bedanken.</li>
+<li>Schiedsrichterzettel ausfüllen.</li>
+<li>Schiedsrichterzettel beim Referee abgeben.</li>
+</ol>
+</div>
+
+<div class="q" id="q59">Was sollte nach Spielende alles auf dem Schiedsrichterzettel vermerkt werden?</div>
+<div class="a"><ul>
+<li>Endzeit ggf. eintragen</li>
+<li>Letzten Punkt ggf. eingetragen</li>
+<li>Überprüfen: Kreis und Punktestand nach jedem Satz?</li>
+<li>Punktestand im Kopf des Zettels (oben mittig) eintragen (kann für vorherige Sätze auch schon vorher passieren)</li>
+<li>Sieger im Kopf des Zettels umkreisen</li>
+<li>Anzahl der Bälle aus Strichliste ablesen, eintragen und umkreisen</li>
+<li>Ggf. besondere Vorkommnisse (Karten, Verletzungen, Unterbrechungen, Einwechseln von Aufschlag- und Linienrichtern usw.) eintragen</li>
+<li>Zettel unterschreiben</li>
+</ul>
+Der Kopf sieht dann etwa so aus:<br/>
+<img src="sheet36.svg" class="scoresheet" />
+</div>
+
+<div class="q" id="q60">Eine Woche später hast Du einen Einsatz bei einem Mannschaftsturnier. Arne spielt für den ASV Aalen, Chris für den CfB Cronenberg. Die Halle ist 11,5m hoch, mit Verstrebungen in Höhe von 10m über dem Boden. Welche Regeln gelten beim Aufschlag bzw. im Spiel, insofern der Referee nichts anderes festlegt?</div>
+<div class="a">Die Halle ist uneingeschränkt bespielbar. Sowohl beim Aufschlag als auch im Spiel ist jeder Treffer der Decke oder Verstrebungen Fehler.</div>
+
+<div class="q" id="q61">Bei dem Mannschaftsturnier hast Du jetzt auch vier Linienrichter. Allerdings ist es für alle der erste Einsatz. Welche Tipps gibst Du den Linienrichtern?</div>
+<div class="a">
+<ul>
+<li>Wenn der Ball entlang deiner Linie im Feld ist, zeige mit der rechten Hand auf die Linie vor dir.</li>
+<li>Wenn der Ball entlang deiner Linie im Feld aus ist, sage laut <em>Aus</em> und strecke beide Hände auf beide Seiten.</li>
+<li>Du entscheidest nur entlang deiner Linie. Auch wenn der Ball insgesamt aus ist, zeigst Du nur den Ball entlang deiner Linie an.</li>
+<li>Wenn Du den Ball nicht gesehen hast, verdecke mit beiden Händen deine Augen.</li>
+<li>Warte mit der Ansage bis der Ball den Boden berührt – auch wenn der Ball sehr weit aus ist.</li>
+<li>Lass dich nicht von den Spielern beeinflussen.</li>
+</ul></div>
+
+<div class="q" id="q62">Du bist Schiedsrichter beim 2. Herreneinzel; Arne spielt gegen Chris. Arne gewinnt die Wahl und möchte zurückschlagen. Chris möchte auf Deiner linken Seite stehen. Was sagst Du an? Was sagst du an? Was steht auf deinem Zettel?</div>
+<div class="a"><em>Meine Damen und Herren. Zu meiner Rechten</em> [mit der rechten Hand auf den rechten T-Punkt zeigen], <em>ASV Aalen, vertreten durch Arne Aalders, und zu meiner Linken</em> [mit der linken Hand auf den linken T-Punkt zeigen]<em>, CfB Cronenberg, vertreten durch Chris Corsen. CfB Cronenberg schlägt auf. Null beide, bitte spielen.</em><br/>
+Im Einzel wird nur der Aufschläger mit <code>A</code> markiert:<br/>
+<img src="sheet37.svg" class="scoresheet" />
+</main>
+
+</body>
+</html>
