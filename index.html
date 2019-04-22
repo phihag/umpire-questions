@@ -103,7 +103,7 @@ function text(node, str) {
 
 var all_visible = false;
 function toggle_all(e) {
-	e.preventDefault();
+	if (e) e.preventDefault();
 	var i;
 	var answers = document.querySelectorAll('.a');
 	for (i = 0;i < answers.length;i++) {
@@ -147,9 +147,17 @@ document.addEventListener('DOMContentLoaded', function() {
 
 	var toggle_all_div = document.createElement('div');
 	toggle_all_div.setAttribute('id', 'toggle_all');
+	toggle_all_div.setAttribute('title', 'Keyboard shortcut: a');
 	text(toggle_all_div, 'Alle Antworten zeigen');
 	toggle_all_div.addEventListener('click', toggle_all);
 	document.querySelector('body').appendChild(toggle_all_div);
+
+	document.addEventListener('keypress', function(e) {
+		if (e.ctrlKey || e.shiftKey || e.metaKey) return;
+		if (e.key === 'a') {
+			toggle_all();
+		}
+	});
 });
 </script>
 
