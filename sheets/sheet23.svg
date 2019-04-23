@@ -40,8 +40,8 @@
      id="namedview102"
      showgrid="false"
      inkscape:zoom="6.6515991"
-     inkscape:cx="40.762926"
-     inkscape:cy="17.081553"
+     inkscape:cx="12.874895"
+     inkscape:cy="16.480194"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
@@ -463,4 +463,13 @@
      y="4.4235888"
      id="text666-3-6"
      style="font-size:4px;font-family:Helvetica;text-anchor:middle">V</text>
+  <text
+     x="59.971516"
+     y="14.780677"
+     id="text666-3-6-3"
+     style="font-size:4px;font-family:Helvetica;text-anchor:middle">
+    <tspan
+       style="-inkscape-font-specification:sans-serif;font-family:sans-serif;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal"
+       id="tspan879">R</tspan>
+  </text>
 </svg>
