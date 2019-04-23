@@ -22,7 +22,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -40,8 +40,8 @@
      id="namedview102"
      showgrid="false"
      inkscape:zoom="18.813563"
-     inkscape:cx="150.29653"
-     inkscape:cy="5.5275142"
+     inkscape:cx="146.49608"
+     inkscape:cy="10.098684"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
@@ -896,17 +896,21 @@
      id="text664-3-6-7-3-6-7-5-3-3-6-5-6-3-0-6"
      style="font-size:4px;font-family:Helvetica;text-anchor:middle">11</text>
   <text
-     x="168.52222"
-     y="65.42276"
-     id="text664-3-6-7-3-6-7-5-3-3-6-5-6-3-0-6-5"
-     style="font-size:4px;font-family:Helvetica;text-anchor:middle">F</text>
-  <text
-     x="168.48619"
-     y="60.598907"
-     id="text664-3-6-7-3-6-7-5-3-3-6-5-3-5-2-2"
+     x="155.56396"
+     y="60.360062"
+     id="text664-3-6-7-3-6-7-5-3-3-6-5-3-5-2-3"
      style="font-size:4px;font-family:Helvetica;text-anchor:middle">
     <tspan
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Andale Mono';-inkscape-font-specification:'Andale Mono'"
-       id="tspan1188-4">R</tspan>
+       id="tspan1188-6">R</tspan>
+  </text>
+  <text
+     x="155.45764"
+     y="65.250153"
+     id="text664-3-6-7-3-6-7-5-3-3-6-5-3-5-2-7"
+     style="font-size:4px;font-family:Helvetica;text-anchor:middle">
+    <tspan
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Andale Mono';-inkscape-font-specification:'Andale Mono'"
+       id="tspan1188-5">F</tspan>
   </text>
 </svg>
