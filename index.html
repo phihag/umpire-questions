@@ -102,94 +102,6 @@ a.qlink:hover {
 }
 
 </style>
-<script>
-function empty(node) {
-	var last;
-	while ((last = node.lastChild)) {
-		node.removeChild(last);
-	}
-}
-
-function text(node, str) {
-	empty(node);
-	if ((str !== undefined) && (str !== null)) {
-		node.appendChild(node.ownerDocument.createTextNode(str));
-	}
-}
-
-var all_visible = false;
-function toggle_all(e) {
-	if (e) e.preventDefault();
-	var i;
-	var answers = document.querySelectorAll('.a');
-	for (i = 0;i < answers.length;i++) {
-		answers[i].style.visibility = all_visible ? 'hidden' : 'visible';
-	}
-	var show_link_containers = document.querySelectorAll('.show_link_container');
-	for (i = 0;i < show_link_containers.length;i++) {
-		show_link_containers[i].style.display = all_visible ? 'flex' : 'none';
-	}
-
-	text(
-		document.querySelector('#toggle_all'),
-		all_visible ? 'Alle Antworten zeigen' : 'Alle Antworten verbergen');
-	all_visible = !all_visible;
-}
-
-document.addEventListener('DOMContentLoaded', function() {
-	var question_blocks = document.querySelectorAll('.qblock');
-	for (var i = 0;i < question_blocks.length;i++) {
-		var qblock = question_blocks[i];
-		var q = qblock.querySelector('.q');
-		var qid = qblock.getAttribute('id');
-		if (!qid) {
-			console.error('Missing qid in ', qblock);
-			continue;
-		}
-		var num = /^frage([0-9]+)$/.exec(qid)[1];
-		var qlink = document.createElement('a');
-		qlink.setAttribute('href', '#' + qid);
-		qlink.setAttribute('class', 'qlink');
-		text(qlink, 'Frage ' + num);
-		q.insertBefore(qlink, q.firstChild);
-	}
-
-	var answers = document.querySelectorAll('.a');
-	for (var i = 0;i < answers.length;i++) {
-		var a = answers[i];
-
-		(function(a) {
-			var show = function() {
-				a.style.visibility = 'visible';
-				show_link_container.style.display = 'none';
-			};
-
-			a.style.visibility = 'hidden';
-
-			var show_link_container = document.createElement('div');
-			show_link_container.setAttribute('class', 'show_link_container');
-			var show_link = document.createElement('div');
-			show_link.setAttribute('class', 'show_link');
-			show_link.appendChild(document.createTextNode('Antwort zeigen'));
-			show_link_container.appendChild(show_link);
-			a.parentNode.insertBefore(show_link_container, a);
-			show_link_container.addEventListener('click', show);
-		})(a);
-	}
-
-	var toggle_all_div = document.querySelector('#toggle_all');
-	text(toggle_all_div, 'Alle Antworten zeigen');
-	toggle_all_div.addEventListener('click', toggle_all);
-
-	document.addEventListener('keypress', function(e) {
-		if (e.ctrlKey || e.shiftKey || e.metaKey) return;
-		if (e.key === 'a') {
-			toggle_all();
-		}
-	});
-});
-</script>
-
 </head>
 <body>
 
@@ -719,5 +631,94 @@ Im Einzel wird nur der Aufschläger mit <code>A</code> markiert:<br/>
 </ul>
 
 </main>
+
+<script>
+function empty(node) {
+	var last;
+	while ((last = node.lastChild)) {
+		node.removeChild(last);
+	}
+}
+
+function text(node, str) {
+	empty(node);
+	if ((str !== undefined) && (str !== null)) {
+		node.appendChild(node.ownerDocument.createTextNode(str));
+	}
+}
+
+var all_visible = false;
+function toggle_all(e) {
+	if (e) e.preventDefault();
+	var i;
+	var answers = document.querySelectorAll('.a');
+	for (i = 0;i < answers.length;i++) {
+		answers[i].style.visibility = all_visible ? 'hidden' : 'visible';
+	}
+	var show_link_containers = document.querySelectorAll('.show_link_container');
+	for (i = 0;i < show_link_containers.length;i++) {
+		show_link_containers[i].style.display = all_visible ? 'flex' : 'none';
+	}
+
+	text(
+		document.querySelector('#toggle_all'),
+		all_visible ? 'Alle Antworten zeigen' : 'Alle Antworten verbergen');
+	all_visible = !all_visible;
+}
+
+document.addEventListener('DOMContentLoaded', function() {
+	var question_blocks = document.querySelectorAll('.qblock');
+	for (var i = 0;i < question_blocks.length;i++) {
+		var qblock = question_blocks[i];
+		var q = qblock.querySelector('.q');
+		var qid = qblock.getAttribute('id');
+		if (!qid) {
+			console.error('Missing qid in ', qblock);
+			continue;
+		}
+		var num = /^frage([0-9]+)$/.exec(qid)[1];
+		var qlink = document.createElement('a');
+		qlink.setAttribute('href', '#' + qid);
+		qlink.setAttribute('class', 'qlink');
+		text(qlink, 'Frage ' + num);
+		q.insertBefore(qlink, q.firstChild);
+	}
+
+	var answers = document.querySelectorAll('.a');
+	for (var i = 0;i < answers.length;i++) {
+		var a = answers[i];
+
+		(function(a) {
+			var show = function() {
+				a.style.visibility = 'visible';
+				show_link_container.style.display = 'none';
+			};
+
+			a.style.visibility = 'hidden';
+
+			var show_link_container = document.createElement('div');
+			show_link_container.setAttribute('class', 'show_link_container');
+			var show_link = document.createElement('div');
+			show_link.setAttribute('class', 'show_link');
+			show_link.appendChild(document.createTextNode('Antwort zeigen'));
+			show_link_container.appendChild(show_link);
+			a.parentNode.insertBefore(show_link_container, a);
+			show_link_container.addEventListener('click', show);
+		})(a);
+	}
+
+	var toggle_all_div = document.querySelector('#toggle_all');
+	text(toggle_all_div, 'Alle Antworten zeigen');
+	toggle_all_div.addEventListener('click', toggle_all);
+
+	document.addEventListener('keypress', function(e) {
+		if (e.ctrlKey || e.shiftKey || e.metaKey) return;
+		if (e.key === 'a') {
+			toggle_all();
+		}
+	});
+});
+</script>
+
 </body>
 </html>
