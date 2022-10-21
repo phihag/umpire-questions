@@ -1,11 +1,14 @@
 {
   "remotes": [
     {
-      "host": "phihag.de",
+      "host": "aufschlagwechsel.de",
       "port": 622,
       "dir": "/hosts/aufschlagwechsel.de/uq/",
       "username": "phihag",
-      "php_baseurl": "https://aufschlagwechsel.de/uq/"
+      "php_baseurl": "https://aufschlagwechsel.de/uq/",
+      "disabled_algorithms": {
+        "pubkeys": ["rsa-sha2-512", "rsa-sha2-256"]
+      }
     }
   ]
 }
